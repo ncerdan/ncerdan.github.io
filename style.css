@@ -10,7 +10,7 @@ body {
 }
 
 * {
-	box-sizing: border-box;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .menu {
@@ -59,7 +59,6 @@ body {
 
 .header h1 {
 	font-size: 575%;
-	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	color: white;
 	margin-bottom: -10px;
 }
@@ -86,8 +85,34 @@ body {
 }
 
 .info-pane-title {
-	text-align: center;
+	display: block;
+	position: absolute;
+	left: 50%;
 	color: white;
 	font-size: 300%;
-	text-decoration: underline;
+	border-bottom: 2px solid white;
+}
+
+.home-info-pane .info-pane-title  {
+	margin-left: -70px;
+}
+
+.about-me-info-pane .info-pane-title  {
+	margin-left: -117px;
+}
+
+.education-info-pane .info-pane-title  {
+	margin-left: -119px;
+}
+
+.work-info-pane .info-pane-title  {
+	margin-left: -58px;
+}
+
+.projects-info-pane .info-pane-title  {
+	margin-left: -90px;
+}
+
+.contact-me-info-pane .info-pane-title  {
+	margin-left: -142px;
 }
