@@ -13,6 +13,9 @@ function handleImageClick(event) {
 		target.removeClass('selected');
 
 		infoPanes.fadeOut(200);
+
+		$('div.default-info-pane').addClass('selected');
+		$('div.default-info-pane').fadeIn(200);
 	}
 
 	else {
@@ -23,6 +26,10 @@ function handleImageClick(event) {
 		target.addClass('selected');
 
 		infoPanes.removeClass('selected');
+		infoPanes.fadeOut(200);
+
+		$('div.default-info-pane').removeClass('selected');
+		$('div.default-info-pane').fadeOut(200);
 
 		if (target.hasClass('home-image')) {
 			$('div.home-info-pane').addClass('selected');

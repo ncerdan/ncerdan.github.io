@@ -26,11 +26,7 @@ body {
 	
 	background-size: cover;
 	background-position: center center;
-	cursor: pointer;
-
-	-webkit-transition: all 0.2s ease;
-	transition: all 0.2s ease;
-	
+	cursor: pointer;	
 }
 
 .menu-image:hover {
@@ -84,6 +80,20 @@ body {
 	visibility: visible;
 }
 
+.default-info-pane {
+	border: 2px solid white ;
+	height: 600px;
+	width: 1000px;
+	position: fixed;
+	right: 15px;
+	top: 125px;
+	visibility: hidden;
+}
+
+.default-info-pane.selected {
+	visibility: visible;
+}
+
 .info-pane-title {
 	display: block;
 	position: absolute;
@@ -91,6 +101,10 @@ body {
 	color: white;
 	font-size: 300%;
 	border-bottom: 2px solid white;
+}
+
+.default-info-pane .info-pane-title {
+	margin-left: -291px;
 }
 
 .home-info-pane .info-pane-title  {
