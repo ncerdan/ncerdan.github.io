@@ -11,6 +11,8 @@ function handleImageClick(event) {
 		menuImages.removeClass('not-selected');
 		infoPanes.removeClass('selected');
 		target.removeClass('selected');
+
+		infoPanes.fadeOut(200);
 	}
 
 	else {
@@ -24,16 +26,22 @@ function handleImageClick(event) {
 
 		if (target.hasClass('home-image')) {
 			$('div.home-info-pane').addClass('selected');
+			$('div.home-info-pane').fadeIn(200);
 		} else if (target.hasClass('about-me-image')) {
 			$('div.about-me-info-pane').addClass('selected');
+			$('div.about-me-info-pane').fadeIn(200);
 		} else if (target.hasClass('education-image')) {
 			$('div.education-info-pane').addClass('selected');
+			$('div.education-info-pane').fadeIn(200);
 		} else if (target.hasClass('work-image')) {
 			$('div.work-info-pane').addClass('selected');
+			$('div.work-info-pane').fadeIn(200);
 		} else if (target.hasClass('projects-image')) {
 			$('div.projects-info-pane').addClass('selected');
+			$('div.projects-info-pane').fadeIn(200);
 		} else {
 			$('div.contact-me-info-pane').addClass('selected');
+			$('div.contact-me-info-pane').fadeIn(200);
 		}
 	}
 }
