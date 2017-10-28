@@ -14,8 +14,9 @@ body {
 }
 
 .menu {
-	margin-top: 125px;
-	margin-left: 100px;
+	position: fixed;
+	top: 125px;
+	left: 100px;
 	width: 400px;
 }
 
@@ -49,7 +50,7 @@ body {
 }
 
 .header {
-	position: absolute;
+	position: fixed;
 	left: 50%;
 	top: 0px;
 	margin-left: -281px;
@@ -68,4 +69,25 @@ body {
 	height: 166.66px;
 	padding: 0px;
 	margin: 10px 10px;
+}
+
+.info-pane {
+	border: 2px solid white ;
+	height: 600px;
+	width: 1000px;
+	position: fixed;
+	right: 15px;
+	top: 125px;
+	visibility: hidden;
+}
+
+.info-pane.selected {
+	visibility: visible;
+}
+
+.info-pane-title {
+	text-align: center;
+	color: white;
+	font-size: 300%;
+	text-decoration: underline;
 }
