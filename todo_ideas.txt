@@ -1,0 +1,7 @@
+TO-DO
+-fix bug where first icon click fadesIn, out, in
+-fix bug where first icon clicked after clicking header doesn't have fade/out/in effect
+-Fill divs!
+
+IDEAS
+-blur background image under info-pane divs when icons selected

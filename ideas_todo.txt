@@ -1,6 +1,0 @@
-TO-DO
--fix bug where first icon click fadesIn, out, in
-
-IDEAS
--replace home icon w skills
--make header clickable to home page

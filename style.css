@@ -57,6 +57,7 @@ body {
 	font-size: 575%;
 	color: white;
 	margin-bottom: -10px;
+	cursor: pointer;
 }
 
 .col, 
@@ -76,11 +77,11 @@ body {
 	visibility: hidden;
 }
 
-.info-pane.selected {
+.info-pane.visible {
 	visibility: visible;
 }
 
-.default-info-pane {
+.home-info-pane {
 	border: 2px solid white ;
 	height: 600px;
 	width: 1000px;
@@ -90,7 +91,7 @@ body {
 	visibility: hidden;
 }
 
-.default-info-pane.selected {
+.home-info-pane.selected {
 	visibility: visible;
 }
 
@@ -103,16 +104,16 @@ body {
 	border-bottom: 2px solid white;
 }
 
-.default-info-pane .info-pane-title {
-	margin-left: -291px;
-}
-
 .home-info-pane .info-pane-title  {
 	margin-left: -70px;
 }
 
 .about-me-info-pane .info-pane-title  {
 	margin-left: -117px;
+}
+
+.skills-info-pane .info-pane-title  {
+	margin-left: -47px;
 }
 
 .education-info-pane .info-pane-title  {
