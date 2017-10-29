@@ -1,3 +1,4 @@
+		/* Overall */
 
 body {
 	background: url('res/background-image2.jpg'); 
@@ -5,13 +6,28 @@ body {
 	margin: 0px;
 }
 
-.menu-img {
-	background-color: black;	
-}
-
 * {
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: white;
 }
+
+		/* Header */
+
+.header {
+	position: fixed;
+	left: 50%;
+	top: 0px;
+	margin-left: -281px;
+	border-bottom: 2px solid white;
+}
+
+.header h1 {
+	font-size: 575%;
+	margin-bottom: -10px;
+	cursor: pointer;
+}
+
+		/* Menu */
 
 .menu {
 	position: fixed;
@@ -19,6 +35,14 @@ body {
 	left: 100px;
 	width: 400px;
 }
+
+.menu-col {
+	height: 166.66px;
+	padding: 0px;
+	margin: 10px 10px;
+}
+
+		/* Menu Icons */
 
 .menu-image {
 	width: 100%;
@@ -45,30 +69,10 @@ body {
 	filter: brightness(.5);
 }
 
-.header {
-	position: fixed;
-	left: 50%;
-	top: 0px;
-	margin-left: -281px;
-	border-bottom: 2px solid white;
-}
-
-.header h1 {
-	font-size: 575%;
-	color: white;
-	margin-bottom: -10px;
-	cursor: pointer;
-}
-
-.col, 
-[class^=col-] {
-	height: 166.66px;
-	padding: 0px;
-	margin: 10px 10px;
-}
+		/* Info Panes */
 
 .info-pane {
-	border: 2px solid white ;
+	
 	height: 600px;
 	width: 1000px;
 	position: fixed;
@@ -82,7 +86,7 @@ body {
 }
 
 .home-info-pane {
-	border: 2px solid white ;
+	
 	height: 600px;
 	width: 1000px;
 	position: fixed;
@@ -104,29 +108,83 @@ body {
 	border-bottom: 2px solid white;
 }
 
+		/* Home Info Pane */
+
 .home-info-pane .info-pane-title  {
 	margin-left: -70px;
 }
+
+		/* About Me Info Pane */
 
 .about-me-info-pane .info-pane-title  {
 	margin-left: -117px;
 }
 
+		/* Skill Info Pane */
+
 .skills-info-pane .info-pane-title  {
 	margin-left: -47px;
 }
+
+#skills-container {
+	position: absolute;
+	top: 100px;
+}
+
+.skills-col {
+	width: 50%;
+	padding-right: 0px; 
+}
+
+.skills-list {
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+.skill-item {
+	margin: 10px;
+	height: 50px;	
+}
+
+.skill {
+	display: inline-block;
+	float: left;
+	height: 50px;
+	font-size: 30px;
+}
+
+.skill-dash {
+	display: inline-block;
+	float: center;
+	height: 50px;
+	font-size: 30px;
+}
+
+.skill-level {
+	display: inline-block;
+	float: right;
+	vertical-align: bottom;
+}
+
+		/* Education Info Pane */
 
 .education-info-pane .info-pane-title  {
 	margin-left: -119px;
 }
 
+		/* Work Info Pane */
+
 .work-info-pane .info-pane-title  {
 	margin-left: -58px;
 }
 
+		/* Projects Info Pane */
+
 .projects-info-pane .info-pane-title  {
 	margin-left: -90px;
 }
+
+		/* Contact Me Info Pane */
 
 .contact-me-info-pane .info-pane-title  {
 	margin-left: -142px;
