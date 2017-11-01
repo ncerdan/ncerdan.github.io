@@ -1,7 +1,7 @@
 		/* Overall */
 
 body {
-	background: url('res/background-image2.jpg'); 
+	background: url('res/background-image.jpg'); 
 	background-size: cover;
 	margin: 0px;
 }
@@ -95,7 +95,7 @@ body {
 	visibility: hidden;
 }
 
-.home-info-pane.selected {
+.home-info-pane.visible {
 	visibility: visible;
 }
 
