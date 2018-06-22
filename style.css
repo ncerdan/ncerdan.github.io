@@ -131,8 +131,18 @@ body {
 	top: 100px;
 }
 
+.skill-category-row {
+	height: 40px;
+}
+
+.skill-category {
+}
+
+.skills-row {
+	width: fill;
+}
+
 .skills-col {
-	width: 50%;
 	padding-right: 0px; 
 }
 
@@ -142,21 +152,12 @@ body {
 }
 
 .skill-item {
-	margin: 10px;
-	height: 50px;	
+    margin-top: 10px;
+    margin-left: 10px;	
 }
 
 .skill {
 	display: inline-block;
-	float: left;
-	height: 50px;
-	font-size: 30px;
-}
-
-.skill-dash {
-	display: inline-block;
-	float: center;
-	height: 50px;
 	font-size: 30px;
 }
 
