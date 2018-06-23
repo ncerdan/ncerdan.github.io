@@ -1,4 +1,5 @@
 TO-DO
+-link resume at bottom of about-me-info-pane
 -Fill divs!
 -fix bug where first icon click fadesIn, out, in
 
