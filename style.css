@@ -1,4 +1,4 @@
-		/* Overall */
+/*////////////////////////////////////////////////////////////////////////////////////////// Overall */
 
 body {
 	background: url('res/background-image.jpg'); 
@@ -11,7 +11,7 @@ body {
 	color: white;
 }
 
-		/* Header */
+/*////////////////////////////////////////////////////////////////////////////////////////// Header */
 
 .header {
 	position: fixed;
@@ -27,7 +27,7 @@ body {
 	cursor: pointer;
 }
 
-		/* Menu */
+/*////////////////////////////////////////////////////////////////////////////////////////// Menu */
 
 .menu {
 	position: fixed;
@@ -42,7 +42,7 @@ body {
 	margin: 10px 10px;
 }
 
-		/* Menu Icons */
+/*////////////////////////////////////////////////////////////////////////////////////////// Menu Icons */
 
 .menu-image {
 	width: 100%;
@@ -69,7 +69,7 @@ body {
 	filter: brightness(.5);
 }
 
-		/* Info Panes */
+/*////////////////////////////////////////////////////////////////////////////////////////// Info Panes */
 
 .info-pane {
 	
@@ -108,19 +108,19 @@ body {
 	border-bottom: 2px solid white;
 }
 
-		/* Home Info Pane */
+/*////////////////////////////////////////////////////////////////////////////////////////// Home Info Pane */
 
 .home-info-pane .info-pane-title  {
 	margin-left: -70px;
 }
 
-		/* About Me Info Pane */
+/*////////////////////////////////////////////////////////////////////////////////////////// About Me Info Pane */
 
 .about-me-info-pane .info-pane-title  {
 	margin-left: -117px;
 }
 
-		/* Skill Info Pane */
+/*////////////////////////////////////////////////////////////////////////////////////////// Skills Info Pane */
 
 .skills-info-pane .info-pane-title  {
 	margin-left: -47px;
@@ -135,15 +135,9 @@ body {
 	height: 40px;
 }
 
-.skill-category {
-}
-
-.skills-row {
-	width: fill;
-}
-
 .skills-col {
-	padding-right: 0px; 
+    padding-right: 25px;
+    padding-left: 35px;
 }
 
 .skills-list {
@@ -167,25 +161,25 @@ body {
 	vertical-align: bottom;
 }
 
-		/* Education Info Pane */
+/*////////////////////////////////////////////////////////////////////////////////////////// Education Info Pane */
 
 .education-info-pane .info-pane-title  {
 	margin-left: -119px;
 }
 
-		/* Work Info Pane */
+/*////////////////////////////////////////////////////////////////////////////////////////// Work Info Pane */
 
 .work-info-pane .info-pane-title  {
 	margin-left: -58px;
 }
 
-		/* Projects Info Pane */
+/*////////////////////////////////////////////////////////////////////////////////////////// Projects Info Pane */
 
 .projects-info-pane .info-pane-title  {
 	margin-left: -90px;
 }
 
-		/* Contact Me Info Pane */
+/*////////////////////////////////////////////////////////////////////////////////////////// Contact Me Info Pane */
 
 .contact-me-info-pane .info-pane-title  {
 	margin-left: -142px;
