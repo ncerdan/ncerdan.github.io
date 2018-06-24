@@ -42,8 +42,6 @@ body {
 	margin: 10px 10px;
 }
 
-/*////////////////////////////////////////////////////////////////////////////////////////// Menu Icons */
-
 .menu-image {
 	width: 100%;
 	height: 100%;
@@ -69,7 +67,7 @@ body {
 	filter: brightness(.5);
 }
 
-/*////////////////////////////////////////////////////////////////////////////////////////// Info Panes */
+/*////////////////////////////////////////////////////////////////////////////////////////// Info Panes Management */
 
 .info-pane {
 	
@@ -82,20 +80,6 @@ body {
 }
 
 .info-pane.visible {
-	visibility: visible;
-}
-
-.home-info-pane {
-	
-	height: 600px;
-	width: 1000px;
-	position: fixed;
-	right: 15px;
-	top: 125px;
-	visibility: hidden;
-}
-
-.home-info-pane.visible {
 	visibility: visible;
 }
 
@@ -125,16 +109,27 @@ body {
 	top: 100px;
 }
 
-.about-me-row {
-	height: 600px;
-}
-
 .head-shot {
 	width: 303px;
 	height: 338px;
 	
 	background-size: cover;
 	background-position: center center;
+}
+
+.about-me-paragraph {
+	line-height: 1.3;
+}
+
+#resume-icon-link {
+	float: right;
+	padding-right: 75px;
+}
+
+#resume-link {
+	color: white;
+	font-size: 140%;
+	padding-left: 0px;
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////// Skills Info Pane */

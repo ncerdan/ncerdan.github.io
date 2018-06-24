@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div class="header">
-		<h1> Nick Cerdan </h1>
+		<h1 class="nav-btn header selected"> Nick Cerdan </h1>
 	</div>
 
 
@@ -20,33 +20,33 @@
 	<div class="container menu">
 		<div class="row menu-row">
 			<div class="col-md-5 menu-col">
-				<div class="menu-image about-me-image" style="background-image: url('res/menu-icons/about-me.png')"></div>
+				<div class="nav-btn menu-image about-me-image" style="background-image: url('res/menu-icons/about-me.png')"></div>
 			</div>
 			<div class="col-md-5 menu-col">
-				<div class="menu-image skills-image" style="background-image: url('res/menu-icons/skills.png')"></div>
-			</div>
-		</div>
-		<div class="row menu-row">
-			<div class="col-md-5 menu-col">
-				<div class="menu-image education-image" style="background-image: url('res/menu-icons/education.png')"></div>
-			</div>
-			<div class="col-md-5 menu-col">
-				<div class="menu-image work-image" style="background-image: url('res/menu-icons/work.png')"></div>
+				<div class="nav-btn menu-image skills-image" style="background-image: url('res/menu-icons/skills.png')"></div>
 			</div>
 		</div>
 		<div class="row menu-row">
 			<div class="col-md-5 menu-col">
-				<div class="menu-image projects-image" style="background-image: url('res/menu-icons/projects.png')"></div>
+				<div class="nav-btn menu-image education-image" style="background-image: url('res/menu-icons/education.png')"></div>
 			</div>
 			<div class="col-md-5 menu-col">
-				<div class="menu-image contact-me-image" style="background-image: url('res/menu-icons/contact-me.png')"></div>
+				<div class="nav-btn menu-image work-image" style="background-image: url('res/menu-icons/work.png')"></div>
+			</div>
+		</div>
+		<div class="row menu-row">
+			<div class="col-md-5 menu-col">
+				<div class="nav-btn menu-image projects-image" style="background-image: url('res/menu-icons/projects.png')"></div>
+			</div>
+			<div class="col-md-5 menu-col">
+				<div class="nav-btn menu-image contact-me-image" style="background-image: url('res/menu-icons/contact-me.png')"></div>
 			</div>
 		</div>
 	</div>
 
 
 
-	<div class="home-info-pane visible">
+	<div class="info-pane home-info-pane visible">
 		<h1 class="info-pane-title"> Home </h1>
 	</div>
 
@@ -63,8 +63,13 @@
 				<div class="col-md-1 padding-col"></div>
 				<div class="col-md-5 about-me-col">
 					<p class="about-me-paragraph"> Hello! My name is Nick Cerdan, and I am a first year Computer Science and Engineering Major at UCLA.</p>
-					<p class="about-me-paragraph"> I have a passion for the simple, yet powerful ability of computers and their algorithms, and I am 										interested in almost everything in computing from simple mobile games to complex back-end applications. 								</p>
-					<p class="about-me-paragraph"> A couple of my many other interests are rock climbing, and playing my guitar! </p> 
+					<p class="about-me-paragraph"> I have a passion for the simple, yet powerful, ability of computers and their algorithms, and I am 										interested in almost everything in computing from simple mobile games to complex machine learning 										algorithms. </p>
+					<p class="about-me-paragraph"> You can learn more about me by looking at the rest of my website, and also by checking out my resume here:
+													<br> 
+						<span id="resume-icon-link">
+							<span id="resume-icon"> <img src="res/resume-icon.png"> </span>
+							<a id="resume-link" href="documents/resume.pdf" target="_blank"> Resume </a>
+						</span> </p>
 				</div>
 				<div class="col-md-1 padding-col"></div>
 			</div>
@@ -93,6 +98,7 @@
 						<span class="skill-level"> <img src="res/stars/3-stars.png"> </span> 
 					</div>
 				</div>
+				<div class="col-md-1 padding-col"></div>
 			</div>
 			<div class="row skills-row">
 				<div class="col-md-1 padding-col"></div>
@@ -108,6 +114,7 @@
 						<span class="skill-level"> <img src="res/stars/2-stars.png"> </span> 
 					</div>
 				</div>
+				<div class="col-md-1 padding-col"></div>				
 			</div>
 			<div class="row skills-row">
 				<div class="col-md-1 padding-col"></div>
@@ -123,6 +130,7 @@
 						<span class="skill-level"> <img src="res/stars/2-stars.png"> </span> 
 					</div>
 				</div>
+				<div class="col-md-1 padding-col"></div>
 			</div>
 			<div class="row skill-category-row">
 				<h2 class="skill-category"> Other: </h2>
