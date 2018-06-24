@@ -1,4 +1,5 @@
 TO-DO
+-underline contact links
 -Fill divs!
 -fix bug where first icon click fadesIn, out, in
 
@@ -6,4 +7,3 @@ IDEAS
 -blur background image not under info-pane divs when icons selected so focus is on info (filter blur)?
 -animation on home page?
 -shrink icon next to resume?
-

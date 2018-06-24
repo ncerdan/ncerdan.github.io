@@ -92,6 +92,11 @@ body {
 	border-bottom: 2px solid white;
 }
 
+.info-container {
+	position: absolute;
+	top: 100px;
+}
+
 /*////////////////////////////////////////////////////////////////////////////////////////// Home Info Pane */
 
 .home-info-pane .info-pane-title  {
@@ -102,11 +107,6 @@ body {
 
 .about-me-info-pane .info-pane-title  {
 	margin-left: -117px;
-}
-
-#about-me-container {
-	position: absolute;
-	top: 100px;
 }
 
 .head-shot {
@@ -138,11 +138,6 @@ body {
 	margin-left: -47px;
 }
 
-#skills-container {
-	position: absolute;
-	top: 100px;
-}
-
 .skill-category-row {
 	height: 40px;
 }
@@ -168,9 +163,7 @@ body {
 }
 
 .skill-level {
-	display: inline-block;
 	float: right;
-	vertical-align: bottom;
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////// Education Info Pane */
@@ -195,4 +188,19 @@ body {
 
 .contact-me-info-pane .info-pane-title  {
 	margin-left: -142px;
+}
+
+.contact-row {
+	height: 90px;
+}
+
+.contact-link {
+	position: absolute;
+	left: 65px;
+	bottom: 45px;
+}
+
+.contact-link-text {
+	color: white;
+	font-size: 120%;
 }
