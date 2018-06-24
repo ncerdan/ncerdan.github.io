@@ -1,32 +1,16 @@
 function attachEventHandlers() {
-	$('.menu-image').on('click', handleImageClick);
-	$('.header').on('click', handleHeaderClick);
+	$('.nav-btn').on('click', handleNavClick);
 }
 
-function handleHeaderClick(event) {
+function handleNavClick(event) {
 	const target = $(event.target);
-	const menuImages = $('.menu-image');
-	const infoPanes = $('.info-pane');
-
-	menuImages.removeClass('not-selected');
-	menuImages.removeClass('selected');
-	
-	infoPanes.removeClass('visible');
-	infoPanes.fadeOut(250);
-	
-	$('div.home-info-pane').addClass('visible');
-	$('div.home-info-pane').fadeIn(250);
-}
-
-function handleImageClick(event) {
-	const target = $(event.target);
-	const menuImages = $('.menu-image');
+	const navButtons = $('.nav-btn');
 	const infoPanes = $('.info-pane');
 
 	if (!target.hasClass('selected')) {
 
-		menuImages.removeClass('selected');
-		menuImages.addClass('not-selected');
+		navButtons.removeClass('selected');
+		navButtons.addClass('not-selected');
 
 		target.removeClass('not-selected');
 		target.addClass('selected');
@@ -34,10 +18,12 @@ function handleImageClick(event) {
 		infoPanes.removeClass('visible');
 		infoPanes.fadeOut(250);
 
-		$('div.home-info-pane').removeClass('visible');
-		$('div.home-info-pane').fadeOut(250);
-
-		if (target.hasClass('about-me-image')) {
+		if (target.hasClass('header')) {
+			navButtons.removeClass('not-selected');
+			target.addClass('selected');
+			$('div.home-info-pane').addClass('visible');
+			$('div.home-info-pane').fadeIn(250);
+		} else if (target.hasClass('about-me-image')) {
 			$('div.about-me-info-pane').addClass('visible');
 			$('div.about-me-info-pane').fadeIn(250);
 		} else if (target.hasClass('skills-image')) {
