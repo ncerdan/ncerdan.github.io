@@ -123,7 +123,12 @@ body {
 
 #resume-icon-link {
 	float: right;
-	padding-right: 75px;
+	margin-right: 75px;
+}
+
+#resume-icon-link:hover {
+	text-decoration: none;
+	font-weight: bold;
 }
 
 #resume-link {
@@ -200,7 +205,12 @@ body {
 	bottom: 45px;
 }
 
-.contact-link-text {
+.contact-link {
 	color: white;
 	font-size: 120%;
+}
+
+.contact-item:hover {
+	text-decoration: none;
+	font-weight: bold;
 }
