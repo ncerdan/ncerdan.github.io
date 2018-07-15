@@ -7,4 +7,4 @@ IDEAS
 -animation on home page?
 -shrink icon next to resume?
 -modify link images to bolden on hover?
-	-requires divs with background images (very tedious bc requires restrucure)
+	-requires divs with background images (very tedious bc requires restructure)
