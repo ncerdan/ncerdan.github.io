@@ -1,6 +1,8 @@
 TO-DO
 -Fill divs!
 -fix bug where first icon click fadesIn, out, in
+-change from absolute positioning of divs so it fits screens better
+	-add to bootstrap to work with different widths etc. 
 
 IDEAS
 -blur background image not under info-pane divs when icons selected so focus is on info (filter blur)?
