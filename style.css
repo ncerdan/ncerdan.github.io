@@ -29,7 +29,7 @@ body {
 
 /*////////////////////////////////////////////////////////////////////////////////////////// Menu */
 
-.menu {
+.menu {								/*change location, size to a percentage of width for scaling purposes*/
 	position: fixed;
 	top: 125px;
 	left: 100px;
@@ -69,7 +69,7 @@ body {
 
 /*////////////////////////////////////////////////////////////////////////////////////////// Info Panes Management */
 
-.info-pane {
+.info-pane {					/*change location, size to a percentage of width for scaling purposes*/
 	
 	height: 600px;
 	width: 1000px;
@@ -83,7 +83,7 @@ body {
 	visibility: visible;
 }
 
-.info-pane-title {
+.info-pane-title {				/*change location, size to a percentage of width for scaling purposes*/
 	display: block;
 	position: absolute;
 	left: 50%;
