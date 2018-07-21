@@ -51,5 +51,10 @@ nav img {
 	max-width: 120px;
 }
 
+nav #dot {
+	height: 32px;
+	width: 32px;
+}
+
 
 
