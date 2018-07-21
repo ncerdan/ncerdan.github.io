@@ -36,13 +36,18 @@ nav a {
 	display: block;
 }
 
-nav a:hover {
-	color: #000000;
+nav a .not-selected:hover {
+	color: #B0BEC5;
+	font-size: 125%;
+}
+
+nav img .menu-image:hover {
+	opacity: .6;
 }
 
 nav .selected {
 	font-weight: bold;
-	color: #000000;		/*change*/
+	font-size: 125%;
 }
 
 nav img {
@@ -51,9 +56,9 @@ nav img {
 	max-width: 120px;
 }
 
-nav #dot {
-	height: 32px;
-	width: 32px;
+nav #mark {
+	height: 16px;
+	width: 16px;
 }
 
 
