@@ -1,2 +1,3 @@
-size images in nav bar to be right size in full screen
-re copy home nav abr into other html files once finished.
+-size images in nav bar to be right size in full screen
+
+-surround nav images with div's so you can use hover to change background image (google)
