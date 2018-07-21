@@ -1,39 +1,36 @@
 body {
 	margin:0;
-	/*deice width?*/
+	/*device width?*/
 }
 
-
-
-
-
+ul {
+	margin: 0px;
+	padding: 0px;
+}
 
 header {
 	top: 0px;
 	left: 0px;
 	min-height: 100px;
-	max-height: 150px;
+	max-height: 170px;
 	background: #00897B;
-}
-
-nav {
-	vertical-align: bottom;
 }
 
 nav ul {
 	display: inline;
+	padding-left: 2%;
 }
 
-nav ul li {
+nav li {
 	display: inline-block;
 	width: 12.5%;
 	text-align: center;
-	padding-left: 10px;
-
+	padding-left: 8px;
+	padding-right: 8px;
+	vertical-align: top;
 }
 
-
-nav ul li a{
+nav a {
 	text-decoration: none;
 	color: white;
 	display: block;
@@ -45,7 +42,7 @@ nav a:hover {
 
 nav .selected {
 	font-weight: bold;
-	color: #000000;
+	color: #000000;		/*change*/
 }
 
 nav img {
@@ -53,7 +50,6 @@ nav img {
 	max-height: 120px;
 	max-width: 120px;
 }
-
 
 
 
