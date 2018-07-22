@@ -1,2 +1,4 @@
 -let whole nav box be a link, not just word
 -lighten backgroudn to make "programmer" stand out
+-figure out bottom of home.html
+-make colors defined by class like "blue" for consistency

@@ -15,10 +15,6 @@ span.blue {
 	font-weight: bold;
 }
 
-.dark-grey {
-	background-color: #9E9E9E;	
-}
-
 
 /* NAVBAR / HEADER */
 header {
@@ -104,6 +100,7 @@ header {
 #homeInfoBack {
 	padding-top: 5px;
 	min-height: 275px;
+	background-color: #ffffff;		
 }
 
 #homeInfoContainer {
