@@ -2,6 +2,7 @@
 body {
 	margin:0;
 	background-color: #ffffff;
+	font-family: sans-serif; 
 }
 
 ul {
@@ -9,8 +10,8 @@ ul {
 	padding: 0px;
 }
 
-.blue {
-	color: #29B6F6;
+span.blue {
+	color: #0000ff;
 	font-weight: bold;
 }
 
@@ -69,14 +70,14 @@ header {
 }
 
 #nav a.selected {
-	color: #29B6F6;
+	color: #0000ff;
 	font-weight: bold;
 	font-size: 20px;
 }
 
 
 
-
+/* HOME PAGE */
 #homeImg{
 	height: 400px;
 	width: 100%;
@@ -85,15 +86,28 @@ header {
 	display: table;
 }
 
-#MTaSd {
+#sloganDiv {
 	display: table-cell;
 	text-align: center;	
 	vertical-align: middle;
 }
 
-#MTaS {
+#slogan {
 	margin: 0px;
 	font-size: 100px;
-	color: #424242;
+	color: #000000;
 }
 
+#homeInfoContainer {
+	text-align: center;
+	display: table;
+	width: 40%;
+	margin: auto;
+	margin-top: 5px;
+}
+
+#homeInfo {
+	display: table-cell;
+	background-color: #E0E0E0;
+	border-radius: 3px;
+}
