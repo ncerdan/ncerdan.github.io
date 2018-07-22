@@ -1,7 +1,7 @@
 /* GLOBALS */
 body {
 	margin:0;
-	background-color: #B0BEC5;
+	background-color: #ffffff;
 }
 
 ul {
@@ -9,81 +9,91 @@ ul {
 	padding: 0px;
 }
 
-section {
-	
+.blue {
+	color: #29B6F6;
+	font-weight: bold;
 }
-
-
 
 
 /* NAVBAR / HEADER */
 header {
 	top: 0px;
 	left: 0px;
-	min-height: 100px;
-	background: none;
+	min-height: 50px;
+	background-color: #ffffff;
 }
 
-nav ul {
-	display: inline;
-	padding-left: 2%;
+#logo {
+	margin-left: 35px;
+	font-size: 40px;
 }
 
-nav li {
-	display: inline-block;
-	width: 12.5%;
+#nav {
+	float: right;
+	margin-top: 0px;
+	width: 58%;
+}
+
+#nav ul {
+	display: table;
+	width: 100%;
+	min-height: 50px;
+}
+
+#nav li {
+	display: table-cell;
 	text-align: center;
-	padding-left: 8px;
-	padding-right: 8px;
-	vertical-align: bottom;
+	vertical-align: middle;
 }
 
-nav a {
-	text-decoration: none;
-	color: #B0BEC5;
-	display: block;
+#nav li.word {
+	width: 12.8%;
+	min-width: 50px;
 }
 
-.menu-icon {
-	max-height: 120px;
-	max-width: 120px;
-	filter: brightness(.7);
-}
-
-.selected, .not-selected {
-	margin-top: -4px;
-}
-
-.menu-icon:hover + .not-selected, .not-selected:hover {
-	color: #ffffff;
-	font-size: 125%;
-}
-
-.menu-icon.chosen {
-	filter: brightness(1);
-}
-
-.menu-icon.choice:hover {
-	filter: brightness(.9);
-}
-
-.selected {
+#nav li.line {
 	font-weight: bold;
-	font-size: 125%;
-	color: #ffffff;
+	font-size: 25px;
+	color: #000000;
 }
 
-#mark {
-	height: 12px;
-	width: 12px;
+#nav li.word:hover {
+	background-color: #E0E0E0;
+}
+
+#nav a {
+	text-decoration: none;
+	display: block;
+	color: #000000;
+	font-size: 18px;
+}
+
+#nav a.selected {
+	color: #29B6F6;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 
-/* HOME */
 
 
+#homeImg{
+	height: 400px;
+	width: 100%;
+	background-image: url('../res/yosemiteBWBig.jpg');
+	background-repeat: no-repeat;
+	display: table;
+}
 
+#MTaSd {
+	display: table-cell;
+	text-align: center;	
+	vertical-align: middle;
+}
 
-
-
+#MTaS {
+	margin: 0px;
+	font-size: 100px;
+	color: #424242;
+}
 
