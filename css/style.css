@@ -1,6 +1,7 @@
+/* GLOBALS */
 body {
 	margin:0;
-	/*device width?*/
+	background-color: #B0BEC5;
 }
 
 ul {
@@ -8,12 +9,19 @@ ul {
 	padding: 0px;
 }
 
+section {
+	
+}
+
+
+
+
+/* NAVBAR / HEADER */
 header {
 	top: 0px;
 	left: 0px;
 	min-height: 100px;
-	max-height: 170px;
-	background: #00897B;
+	background: none;
 }
 
 nav ul {
@@ -27,39 +35,55 @@ nav li {
 	text-align: center;
 	padding-left: 8px;
 	padding-right: 8px;
-	vertical-align: top;
+	vertical-align: bottom;
 }
 
 nav a {
 	text-decoration: none;
-	color: white;
+	color: #B0BEC5;
 	display: block;
 }
 
-nav a .not-selected:hover {
-	color: #B0BEC5;
-	font-size: 125%;
-}
-
-nav img .menu-image:hover {
-	opacity: .6;
-}
-
-nav .selected {
-	font-weight: bold;
-	font-size: 125%;
-}
-
-nav img {
-	width: 85%;
+.menu-icon {
 	max-height: 120px;
 	max-width: 120px;
+	filter: brightness(.7);
 }
 
-nav #mark {
-	height: 16px;
-	width: 16px;
+.selected, .not-selected {
+	margin-top: -4px;
 }
+
+.menu-icon:hover + .not-selected, .not-selected:hover {
+	color: #ffffff;
+	font-size: 125%;
+}
+
+.menu-icon.chosen {
+	filter: brightness(1);
+}
+
+.menu-icon.choice:hover {
+	filter: brightness(.9);
+}
+
+.selected {
+	font-weight: bold;
+	font-size: 125%;
+	color: #ffffff;
+}
+
+#mark {
+	height: 12px;
+	width: 12px;
+}
+
+
+/* HOME */
+
+
+
+
 
 
 
