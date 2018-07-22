@@ -1,1 +1,2 @@
 -let whole nav box be a link, not just word
+-lighten backgroudn to make "programmer" stand out
