@@ -1,2 +1,14 @@
+___ OVERALL ___
 -let whole nav box be a link, not just word
+-back ground picture ideas:
+	(skills) 		--> guitar
+	(education) 	--> royce/powell
+	(work) 			--> golden gate
+	(projects)		--> camping on lake
+	(contact)		--> beach
+
+___ HOME ___
 -blue not contrast enough in home img?
+
+___ ABOUT ME ___
+-ask parents thoughts
