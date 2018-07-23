@@ -1,6 +1,7 @@
 ___ OVERALL ___
 -let whole nav box be a link, not just word
 -have pictures fill background regardless of screen width
+-meta stuff for search finding
 -back ground picture ideas:
 	(skills) 		--> guitar
 	(education) 		--> royce/powell
