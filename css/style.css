@@ -90,7 +90,7 @@ header {
 #homeImg{
 	height: 680px;
 	width: 100%;
-	background-image: url('../res/yosemiteBWBigDark.jpg');
+	background-image: url('../res/background/yosemiteBWBigDark.jpg');
 	background-repeat: no-repeat;
 	display: table;
 }
@@ -134,7 +134,7 @@ header {
 #about-container {
 	width: 100%;
 	height: 680px;
-	background-image: url('../res/oceanGrey.jpg');
+	background-image: url('../res/background/oceanGrey.jpg');
 	background-repeat: no-repeat;
 	display: table;
 }

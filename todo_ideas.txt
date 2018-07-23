@@ -1,10 +1,11 @@
 ___ OVERALL ___
 -let whole nav box be a link, not just word
+-have pictures fill background regardless of screen width
 -back ground picture ideas:
 	(skills) 		--> guitar
-	(education) 	--> royce/powell
+	(education) 		--> royce/powell
 	(work) 			--> golden gate
-	(projects)		--> camping on lake
+	(projects)		--> typing at computer
 	(contact)		--> beach
 
 ___ HOME ___
@@ -12,3 +13,4 @@ ___ HOME ___
 
 ___ ABOUT ME ___
 -ask parents thoughts
+-add resume
