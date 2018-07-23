@@ -3,6 +3,9 @@ body {
 	margin:0;
 	background-color: #ffffff;
 	font-family: sans-serif; 
+	font-size: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 ul {
@@ -11,11 +14,10 @@ ul {
 }
 
 span.blue {
-	color: #0000ff;
+	color: #0080ff;
 	font-weight: bold;
 }
-
-
+	
 /* NAVBAR / HEADER */
 header {
 	top: 0px;
@@ -25,13 +27,15 @@ header {
 
 #logo {
 	margin-left: 35px;
-	font-size: 40px;
+	font-size: 35px;
 }
 
 #nav {
 	float: right;
-	margin-top: 0px;
+	margin: 0px;
 	width: 58%;
+	max-height: 50px;
+	margin-right: 5px;
 }
 
 #nav ul {
@@ -53,7 +57,7 @@ header {
 
 #nav li.line {
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 1.5em;
 	color: #000000;
 }
 
@@ -69,7 +73,7 @@ header {
 }
 
 #nav a.selected {
-	color: #0000ff;
+	color: #0080ff;
 	font-weight: bold;
 	font-size: 20px;
 }
@@ -78,40 +82,43 @@ header {
 
 /* HOME PAGE */
 #homeImg{
-	height: 400px;
+	height: 680px;
 	width: 100%;
-	background-image: url('../res/yosemiteBWBig.jpg');
+	background-image: url('../res/yosemiteBWBigDark.jpg');
 	background-repeat: no-repeat;
 	display: table;
 }
 
 #sloganDiv {
+	padding-right: 3%;
 	display: table-cell;
-	text-align: center;	
+	text-align: right;	
+	width: 45%;
 	vertical-align: middle;
 }
 
 #slogan {
 	margin: 0px;
-	font-size: 100px;
-	color: #000000;
-}
-
-#homeInfoBack {
-	padding-top: 5px;
-	min-height: 275px;
-	background-color: #ffffff;		
+	font-size: 6em;
+	color: #ffffff;
 }
 
 #homeInfoContainer {
+	display: table-cell;
 	text-align: center;
-	display: table;
-	width: 40%;
-	margin: auto;
+	vertical-align: top;
+	width: 55%;
 }
 
 #homeInfo {
-	display: table-cell;
-	background-color: #E0E0E0;
+	/*background-color: #E0E0E0;*/
+	width: 80%;
 	border-radius: 3px;
+	color: #ffffff;
+	padding-left: 2%;
+}
+
+#homeInfoTitle {
+	font-size: 3em;
+	margin-bottom: 30px;
 }
