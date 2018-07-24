@@ -1,17 +1,27 @@
 ___ OVERALL ___
 -let whole nav box be a link, not just word
--have pictures fill background regardless of screen width
+-media queries for size
 -meta stuff for search finding
--back ground picture ideas:
-	(skills) 		--> guitar
-	(education) 		--> royce/powell
-	(work) 			--> golden gate
-	(projects)		--> typing at computer
-	(contact)		--> beach
+-back ground picture ideas (B & W):		(implemented)
+	(home)			--> yosemite			= X
+	(about)			--> ocean				= X
+	(skills) 		--> guitar				= X
+	(education) 	--> royce/powell		= O
+	(work) 			--> golden gate			= O
+	(projects)		--> typing at computer	= O
+	(contact)		--> beach				= O
+
+___ CSS ___
+-have pictures fill remaining height
 
 ___ HOME ___
--blue not contrast enough in home img?
+-
 
 ___ ABOUT ME ___
 -ask parents thoughts
--add resume
+-add resume?
+-have picture float left, info float right so they go under eachother when squished? use media queries?
+
+___ SKILLS ___
+-not use stars?
+-format skills better
