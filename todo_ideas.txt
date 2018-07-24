@@ -1,6 +1,14 @@
 ___ OVERALL ___
 -let whole nav box be a link, not just word
--media queries for size
+-media queries for size:
+	-nav --> align to middle at certain width	
+	-home ...
+	-about ...
+	-skills --> align to middle at certain width
+	-education ...
+	-work ...
+	-projects ...
+	-contact ...
 -meta stuff for search finding
 -back ground picture ideas (B & W):		(implemented)
 	(home)			--> yosemite			= X
@@ -13,6 +21,7 @@ ___ OVERALL ___
 
 ___ CSS ___
 -have pictures fill remaining height
+	-magnify each background image to make adjusting look better?
 
 ___ HOME ___
 -
@@ -25,3 +34,4 @@ ___ ABOUT ME ___
 ___ SKILLS ___
 -not use stars?
 -format skills better
+	-min-wdith for cols so stars dont go under skill
