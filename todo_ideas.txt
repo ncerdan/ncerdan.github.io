@@ -12,16 +12,21 @@ ___ OVERALL ___
 	(contact)		--> beach				= O
 
 ___ CSS ___
--have pictures fill remaining height
+-have pictures fill remaining height dynamically
 
 ___ HOME ___
 -
 
 ___ ABOUT ME ___
--ask parents thoughts
+-ask mom thoughts
 -add resume?
--have picture float left, info float right so they go under eachother when squished? use media queries?
 
 ___ SKILLS ___
 -not use stars?
--format skills better
+-minor adjust during collapse so stars never overlap
+
+___ EDUCATION ___
+-use non-tilted picture?
+
+__ WORK ___
+-

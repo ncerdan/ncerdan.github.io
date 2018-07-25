@@ -216,8 +216,15 @@ header {
 
 
 
+/*///////////////////////////////////////////////////////////////////////// EDUCATION */
+#educationBack {
+	background-image: url('../res/background/royce2.jpg');
+}
 
 
 
-
+/*///////////////////////////////////////////////////////////////////////// WORK */
+#workBack {
+	background-image: url('../res/background/goldengate2.jpg');
+}
 
