@@ -39,8 +39,14 @@ header {
 }
 
 #logo {
-	margin-left: 35px;
-	font-size: 35px;
+	max-height: 50px;
+	width: auto;
+	margin-left: 15px;
+	margin-top: -11px;
+}
+
+#headerName {
+	font-size: 2em;
 }
 
 #nav {
@@ -64,7 +70,7 @@ header {
 
 #nav li.word {
 	width: 12.8%;
-	min-width: 100px;
+	min-width: 110px;
 }
 
 #nav li.line {
@@ -187,9 +193,21 @@ header {
 	padding: 2px 4px 8px 20px;
 }
 
+.skills-col {
+	/*min-width: 330px;*/
+}
+
+.skill-item {
+	padding-bottom: 60px;
+	min-width: 200px;
+	margin-left: 5px;
+}
 
 .skill {
+	float: left;
 	font-size: 1.4em;
+	font-weight: bold;
+	min-width: 105px;
 }
 
 .skill-level {
