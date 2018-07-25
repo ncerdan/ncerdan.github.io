@@ -14,18 +14,13 @@ ___ OVERALL ___
 	(home)			--> yosemite			= X
 	(about)			--> ocean				= X
 	(skills) 		--> guitar				= X
-	(education) 	--> royce/powell		= O
-	(work) 			--> golden gate			= O
+	(education) 	--> royce/powell		= X
+	(work) 			--> golden gate			= X
 	(projects)		--> typing at computer	= O
 	(contact)		--> beach				= O
 
 ___ CSS ___
-<<<<<<< HEAD
 -have pictures fill remaining height dynamically
-=======
--have pictures fill remaining height
-	-magnify each background image to make adjusting look better?
->>>>>>> 1380df8cc42622eeb70a888a25b25fb5442bdc1e
 
 ___ HOME ___
 -
@@ -36,7 +31,6 @@ ___ ABOUT ME ___
 
 ___ SKILLS ___
 -not use stars?
-<<<<<<< HEAD
 -minor adjust during collapse so stars never overlap
 
 ___ EDUCATION ___
@@ -44,7 +38,3 @@ ___ EDUCATION ___
 
 __ WORK ___
 -
-=======
--format skills better
-	-min-wdith for cols so stars dont go under skill
->>>>>>> 1380df8cc42622eeb70a888a25b25fb5442bdc1e

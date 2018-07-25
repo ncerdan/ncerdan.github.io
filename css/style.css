@@ -193,19 +193,12 @@ header {
 	padding: 2px 4px 8px 20px;
 }
 
-<<<<<<< HEAD
-.skills-col {
-	/*min-width: 330px;*/
-}
-
 .skill-item {
 	padding-bottom: 60px;
 	min-width: 200px;
 	margin-left: 5px;
 }
 
-=======
->>>>>>> 1380df8cc42622eeb70a888a25b25fb5442bdc1e
 .skill {
 	float: left;
 	font-size: 1.4em;
