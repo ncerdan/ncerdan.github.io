@@ -19,22 +19,66 @@ ___ OVERALL ___
 	(projects)		--> typing at computer	= O
 	(contact)		--> beach				= O
 
+
 ___ CSS ___
 -have pictures fill remaining height dynamically
 
+
 ___ HOME ___
 -
+
 
 ___ ABOUT ME ___
 -ask mom thoughts
 -add resume?
 
+
 ___ SKILLS ___
 -not use stars?
 -minor adjust during collapse so stars never overlap
+-excel?
+
 
 ___ EDUCATION ___
--use non-tilted picture?
+-use non-tilted picture in background
+-requirements:
+	-schools (2)
+		-years
+		-location?
+		-GPA
+		-important classes:
+			-title
+			-description
+			-languages used (if applicable)
+			-grade
 
-__ WORK ___
--
+
+__ EXPERIENCE ___
+-requirements:
+	-jobs (2)
+		-date
+		-title
+		-description
+	-leadership (1/2 - volunteer club?, MentorSEAS)
+		-date
+		-title
+		-description
+
+
+___ PROJECTS ___
+-requirements:
+	-projects (2/3/4 - flappyishBird, website?, app in development, arduino?)
+		-title
+		-description
+		-image
+		-link? --> can put flappyishBird on Github while improving it to get commits
+
+
+___ CONTACT ___
+-requirements:
+	-points (6 - phone, email, linkedin, github, facebook, instagram?)
+		-link
+			-icon
+			-text
+
+
