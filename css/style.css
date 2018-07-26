@@ -198,7 +198,7 @@ header {
 }
 
 .skill-item {
-	padding-bottom: 60px;
+	padding-bottom: 50px;
 	min-width: 200px;
 	margin-left: 5px;
 }
@@ -231,7 +231,7 @@ header {
 
 
 /*///////////////////////////////////////////////////////////////////////// MEDIA QUERIES */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 	#skillsDiv {
 		margin: auto;
 		width: 80%;
