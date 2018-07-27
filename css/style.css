@@ -235,17 +235,23 @@ header {
 	#sloganDiv {
 		width: 100%;
 		text-align: center;
+		padding-top: 0px;
 	}
 
 	#slogan {
 		font-size: 3em;	
-		display: table;
-		width: 100%;
+		display: inline-table;
+		
 	}
 
 	#slogan li {
 		margin: 0;
 		display: table-cell;
+		min-width: 0px;
+	}
+
+	#homeInfo {
+		margin: auto;
 	}
 
 /*---------------------------*/
