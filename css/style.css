@@ -104,11 +104,9 @@ header {
 }
 
 #sloganDiv {
-	padding-right: 3%;
-	display: table-cell;
-	text-align: right;	
-	width: 45%;
-	vertical-align: middle;
+	text-align: right;
+	width: 85%;
+	padding-top: 155px;	
 }
 
 #slogan {
@@ -117,22 +115,22 @@ header {
 	color: #ffffff;
 }
 
-#homeInfoContainer {
-	display: table-cell;
-	text-align: center;
-	vertical-align: top;
-	width: 55%;
+#slogan li {
+	margin-top: -35px;
+	min-width: 540px;
 }
 
 #homeInfo {
+	text-align: center;
 	width: 80%;
+	min-width: 455px;
 	color: #ffffff;
-	padding-left: 2%;
+	padding-left: 10%;
 	margin-top: 2%;
 }
 
 #homeInfoTitle {
-	font-size: 3em;
+	font-size: 2.5em;
 	margin-bottom: 30px;
 }
 
@@ -234,6 +232,24 @@ header {
 }
 
 @media (max-width: 992px) {
+	#sloganDiv {
+		width: 100%;
+		text-align: center;
+	}
+
+	#slogan {
+		font-size: 3em;	
+		display: table;
+		width: 100%;
+	}
+
+	#slogan li {
+		margin: 0;
+		display: table-cell;
+	}
+
+/*---------------------------*/
+
 	#headshot {
 		width: 35%;
 	} 

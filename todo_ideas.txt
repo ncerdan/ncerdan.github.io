@@ -30,14 +30,15 @@ ___ HOME ___
 
 ___ ABOUT ME ___
 -ask mom thoughts
--add resume?
+-add resume --> put below picture when wide, then next to picture when narrow
 -make divs veritically middle (just have top margin rn)
 
 
 ___ SKILLS ___
 -not use stars?
--minor adjust during collapse so stars never overlap --> check O
+-minor adjust during collapse so stars never overlap --> check
 -replace excel?
+-add jquery
 
 
 ___ EDUCATION ___
@@ -68,11 +69,12 @@ __ EXPERIENCE ___
 
 ___ PROJECTS ___
 -requirements:
-	-projects (2/3/4 - flappyishBird, website?, app in development, arduino?)
+	-projects (2/3/4 - flappyishBird, website?, app in development, arduino?, nachenblaster)
 		-title
 		-description
 		-image
 		-link? --> can put flappyishBird on Github while improving it to get commits
+			   --> put nachenblaster on Github
 
 
 ___ CONTACT ___
