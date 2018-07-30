@@ -10,7 +10,7 @@ ___ OVERALL ___
 	-projects 	...
 	-contact 	...
 -add meta stuff for search finding
--back ground picture ideas (B & W):		(implemented)
+-background picture ideas (B & W):		(implemented)
 	(home)			--> yosemite			= X
 	(about)			--> ocean				= X
 	(skills) 		--> guitar				= X
@@ -37,8 +37,6 @@ ___ ABOUT ME ___
 ___ SKILLS ___
 -not use stars?
 -minor adjust during collapse so stars never overlap --> check
--replace excel?
--add jquery
 
 
 ___ EDUCATION ___

@@ -106,7 +106,7 @@ header {
 #sloganDiv {
 	text-align: right;
 	width: 85%;
-	padding-top: 155px;	
+	padding-top: 155px;		/*change to vertically middle */
 }
 
 #slogan {
@@ -117,7 +117,7 @@ header {
 
 #slogan li {
 	margin-top: -35px;
-	min-width: 540px;
+	min-width: 620px;
 }
 
 #homeInfo {
@@ -144,7 +144,7 @@ header {
 #headshotDiv {
 	text-align: center;
 	margin: auto;
-	padding-top: 20px;	
+	padding-top: 20px;			/*change to vertically middle */
 }
 
 #headshot {
@@ -160,7 +160,7 @@ header {
 	border: #0080ff solid 2px;
 	background-color: #ffffff;
 	margin: auto;
-	margin-top: 40px;
+	margin-top: 40px;			/*change to vertically middle */
 	margin-bottom: 10px;		
 }
 
@@ -224,24 +224,33 @@ header {
 
 
 /*///////////////////////////////////////////////////////////////////////// MEDIA QUERIES */
+@media (max-width: 767px) {
+	#slogan {
+		font-size: 1em;
+	}
+}
+
+
 @media (max-width: 900px) {
+/* SKILLS */
 	#skillsDiv {
 		margin: auto;
 		width: 80%;
 	}   
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) { /* xs, sm properties */
+/* HOME */ 
 	#sloganDiv {
 		width: 100%;
 		text-align: center;
 		padding-top: 0px;
+		padding-bottom: 35px;
 	}
 
 	#slogan {
 		font-size: 3em;	
 		display: inline-table;
-		
 	}
 
 	#slogan li {
@@ -254,14 +263,33 @@ header {
 		margin: auto;
 	}
 
-/*---------------------------*/
-
+/* ABOUT ME */
 	#headshot {
 		width: 35%;
 	} 
 }
 
-@media (min-width: 992px) and (max-width: 1250px) {
+@media (min-width: 992px) and (max-width: 1250px) { /* smaller md, smaller lg properties */
+/* HOME */
+	#sloganDiv {
+		text-align: left;
+	}
+
+	#slogan {
+		font-size: 5em;
+	}
+
+	#slogan li {
+		padding-bottom: 10px;		
+		min-width: 0px;
+	}
+
+	#homeInfo {
+		width: 95%;
+	}
+
+
+/* ABOUT ME */
 	#headshot {
 		width: 85%;
 	}
