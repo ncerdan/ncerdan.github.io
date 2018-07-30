@@ -100,7 +100,7 @@ header {
 
 /*///////////////////////////////////////////////////////////////////////// HOME */
 #homeBack{
-	background-image: url('../res/background/yosemite.jpg');
+	background-image: url('../res/background/home.jpg');
 }
 
 #sloganDiv {
@@ -138,7 +138,7 @@ header {
 
 /*///////////////////////////////////////////////////////////////////////// ABOUT ME */
 #aboutBack {
-	background-image: url('../res/background/ocean.jpg');
+	background-image: url('../res/background/about.jpg');
 }
 
 #headshotDiv {
@@ -168,7 +168,7 @@ header {
 
 /*///////////////////////////////////////////////////////////////////////// SKILLS */
 #skillsBack {
-	background-image: url('../res/background/guitar.jpg');
+	background-image: url('../res/background/skills.jpg');
 }
 
 #skillsContainer {
@@ -211,14 +211,28 @@ header {
 
 /*///////////////////////////////////////////////////////////////////////// EDUCATION */
 #educationBack {
-	background-image: url('../res/background/royce2.jpg');
+	background-image: url('../res/background/school.jpg');
 }
 
 
 
 /*///////////////////////////////////////////////////////////////////////// WORK */
 #workBack {
-	background-image: url('../res/background/goldengate2.jpg');
+	background-image: url('../res/background/work.jpg');
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////// WORK */
+#projectsBack {
+	background-image: url('../res/background/projects.jpg');
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////// WORK */
+#contactBack {
+	background-image: url('../res/background/contact.jpg');
 }
 
 

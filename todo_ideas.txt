@@ -16,7 +16,7 @@ ___ OVERALL ___
 	(skills) 		--> guitar				= X
 	(education) 	--> royce/powell		= X
 	(work) 			--> golden gate			= X
-	(projects)		--> typing at computer	= O
+	(projects)		--> typing at computer	= X
 	(contact)		--> beach				= O
 
 
