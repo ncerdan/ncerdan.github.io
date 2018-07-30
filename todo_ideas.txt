@@ -2,10 +2,10 @@ ___ OVERALL ___
 -let whole nav box be a link, not just word
 -responsiveness:
 	-nav 		--> align to middle at certain width. use boostrap?	
-	-home 		--> swap to boostrap cols, center content and stack in narrow width?
+	-home 		--> (check good condition width)
 	-about 		--> (check good condition width) Use media query to change headshot to cropped headshot?
 	-skills 	--> (check good condition width)
-	-education 	...
+	-education 	--> (check if anything needs custom media queries)
 	-work 		...
 	-projects 	...
 	-contact 	...
@@ -17,7 +17,7 @@ ___ OVERALL ___
 	(education) 	--> royce/powell		= X
 	(work) 			--> golden gate			= X
 	(projects)		--> typing at computer	= X
-	(contact)		--> beach				= O
+	(contact)		--> beach				= X
 
 
 ___ CSS ___
@@ -25,41 +25,31 @@ ___ CSS ___
 
 
 ___ HOME ___
--
+-minimum widths don't fit slogan
 
 
 ___ ABOUT ME ___
 -ask mom thoughts
 -add resume --> put below picture when wide, then next to picture when narrow
--make divs veritically middle (just have top margin rn)
+-make divs veritically middle (not just have top margin)
 
 
 ___ SKILLS ___
 -not use stars?
--minor adjust during collapse so stars never overlap --> check
+-minor adjust during collapse so stars never overlap or go out of div
 
 
 ___ EDUCATION ___
--use non-tilted picture in background
--requirements:
-	-schools (2)
-		-years
-		-location?
-		-GPA
-		-important classes:
-			-title
-			-description
-			-languages used (if applicable)
-			-grade
+-background and info not seperate enough?
 
 
 __ EXPERIENCE ___
 -requirements:
-	-jobs (2)
+	-jobs (2 App Annie x2)
 		-date
 		-title
 		-description
-	-leadership (1/2 - volunteer club?, MentorSEAS)
+	-leadership? (1/2 - volunteer club?, MentorSEAS)
 		-date
 		-title
 		-description
@@ -67,17 +57,18 @@ __ EXPERIENCE ___
 
 ___ PROJECTS ___
 -requirements:
-	-projects (2/3/4 - flappyishBird, website?, app in development, arduino?, nachenblaster)
+	-projects (2/3/4 - flappyishBird, website?, app in development, nachenblaster, arduino)
 		-title
 		-description
 		-image
 		-link? --> can put flappyishBird on Github while improving it to get commits
 			   --> put nachenblaster on Github
+			   --> put arduino on Github
 
 
 ___ CONTACT ___
 -requirements:
-	-points (6 - phone, email, linkedin, github, facebook, instagram?)
+	-points (6 - phone, email, linkedin, github, facebook, instagram)
 		-link
 			-icon
 			-text

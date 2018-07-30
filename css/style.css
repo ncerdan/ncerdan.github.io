@@ -214,6 +214,14 @@ header {
 	background-image: url('../res/background/school.jpg');
 }
 
+.school-major-col {
+	color: white;
+}
+
+.title {
+	text-decoration: underline;
+}
+
 
 
 /*///////////////////////////////////////////////////////////////////////// WORK */
