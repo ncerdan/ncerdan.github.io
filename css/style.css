@@ -29,6 +29,10 @@ ul {
 	height: 680px; /* fix to scale*/
 }
 
+.centered {
+	text-align: center;
+}
+
 
 	
 /*////////////////////////////////////////////////////////////////////////// NAVBAR, HEADER */
@@ -211,15 +215,21 @@ header {
 
 /*///////////////////////////////////////////////////////////////////////// EDUCATION */
 #educationBack {
-	background-image: url('../res/background/school.jpg');
+	background-image: url('../res/background/school2.jpg');
 }
 
-.school-major-col {
-	color: white;
+.school-major-cont {
+	color: #000000;
+	background-color: #ffffff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 3px;
+	border: #0080ff solid 2px;
 }
 
 .title {
 	text-decoration: underline;
+	color: #0080ff;
 }
 
 

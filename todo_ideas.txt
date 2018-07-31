@@ -40,7 +40,7 @@ ___ SKILLS ___
 
 
 ___ EDUCATION ___
--background and info not seperate enough?
+-background and info not seperate enough --> restructure
 
 
 __ EXPERIENCE ___
