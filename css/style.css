@@ -187,6 +187,8 @@ header {
 	background-color: #ffffff;
 	width: 60%;
 	margin-left: 3%;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	padding: 2px 4px 8px 20px;
 }
 
@@ -267,6 +269,8 @@ header {
 /* SKILLS */
 	#skillsDiv {
 		margin: auto;
+		margin-top: 15px;
+		margin-bottom: 15px;
 		width: 80%;
 	}   
 }
