@@ -33,6 +33,15 @@ ul {
 	text-align: center;
 }
 
+.major-cont {
+	color: #000000;
+	background-color: #ffffff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 3px;
+	border: #0080ff solid 2px;
+}
+
 
 	
 /*////////////////////////////////////////////////////////////////////////// NAVBAR, HEADER */
@@ -220,15 +229,6 @@ header {
 	background-image: url('../res/background/school2.jpg');
 }
 
-.school-major-cont {
-	color: #000000;
-	background-color: #ffffff;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	border-radius: 3px;
-	border: #0080ff solid 2px;
-}
-
 .title {
 	text-decoration: underline;
 	color: #0080ff;
@@ -243,18 +243,33 @@ header {
 
 
 
-/*///////////////////////////////////////////////////////////////////////// WORK */
+/*///////////////////////////////////////////////////////////////////////// PROJECTS */
 #projectsBack {
 	background-image: url('../res/background/projects.jpg');
 }
 
 
 
-/*///////////////////////////////////////////////////////////////////////// WORK */
+/*///////////////////////////////////////////////////////////////////////// CONTACT ME */
 #contactBack {
 	background-image: url('../res/background/contact.jpg');
 }
 
+.contact-item {
+
+}
+
+.contact-item:hover {
+	
+}
+
+.contact-icon {
+
+}
+
+.contact-link {
+	color: #000000;
+}
 
 
 /*///////////////////////////////////////////////////////////////////////// MEDIA QUERIES */

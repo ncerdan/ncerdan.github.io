@@ -1,23 +1,15 @@
 ___ OVERALL ___
 -let whole nav box be a link, not just word
 -responsiveness:
-	-nav 		--> align to middle at certain width. use boostrap?	
-	-home 		--> (check good condition width)
-	-about 		--> (check good condition width) Use media query to change headshot to cropped headshot?
-	-skills 	--> (check good condition width)
+	-nav 		--> use boostrap nav collapse	
+	-home 		--> (check good conditional widths)
+	-about 		--> (check good conditional widths) Use media query to change headshot to cropped headshot?
+	-skills 	--> (check good conditional widths)
 	-education 	--> (check if anything needs custom media queries)
 	-work 		...
 	-projects 	...
 	-contact 	...
 -add meta stuff for search finding
--background picture ideas (B & W):		(implemented)
-	(home)			--> yosemite			= X
-	(about)			--> ocean				= X
-	(skills) 		--> guitar				= X
-	(education) 	--> royce/powell		= X
-	(work) 			--> golden gate			= X
-	(projects)		--> typing at computer	= X
-	(contact)		--> beach				= X
 
 
 ___ CSS ___
@@ -40,7 +32,6 @@ ___ SKILLS ___
 
 
 ___ EDUCATION ___
--background and info not seperate enough --> restructure
 
 
 __ EXPERIENCE ___
@@ -57,20 +48,22 @@ __ EXPERIENCE ___
 
 ___ PROJECTS ___
 -requirements:
-	-projects (2/3/4 - flappyishBird, website?, app in development, nachenblaster, arduino)
+	-projects (4/5 - flappyishBird, website, android app in development, nachenblaster, arduino)
 		-title
 		-description
 		-image
 		-link? --> can put flappyishBird on Github while improving it to get commits
 			   --> put nachenblaster on Github
 			   --> put arduino on Github
+-grid?
+-use jquery for effects
 
 
 ___ CONTACT ___
--requirements:
-	-points (6 - phone, email, linkedin, github, facebook, instagram)
-		-link
-			-icon
-			-text
+-edit icons
+-style content
+-add jquery effects?
+-make div veritically middle (not just have top margin)
+
 
 
