@@ -59,7 +59,8 @@ ___ PROJECTS ___
 
 ___ CONTACT ___
 -add jquery effects?
--make div veritically middle (not just have top margin)
+-make div veritically middle (not just have top margin) (in html)
+-not make email go under icon
 
 
 
