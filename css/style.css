@@ -51,6 +51,10 @@ ul {
 	margin-top: 10px;
 }
 
+.title {				/*merge with blue */
+	color: #0080ff;
+}
+
 	
 /*////////////////////////////////////////////////////////////////////////// NAVBAR, HEADER */
 header {
@@ -186,7 +190,7 @@ header {
 }
 
 #aboutInfoDiv {
-	width: 90%;						/*merge iwth major-cont class*/
+	width: 90%;						/*merge iwth major-cont class?*/
 	text-align: center;
 	border-radius: 3px;
 	border: #0080ff solid 2px;
@@ -210,7 +214,7 @@ header {
 }
 
 #skillsDiv {
-	border-radius: 3px;
+	border-radius: 3px;				/*merge iwth major-cont class?*/
 	border: #0080ff solid 2px;
 	background-color: #ffffff;
 	width: 60%;
@@ -233,7 +237,6 @@ header {
 .skill {
 	float: left;
 	font-size: 1.4em;
-	font-weight: bold;
 	min-width: 115px;
 }
 
@@ -246,11 +249,6 @@ header {
 /*///////////////////////////////////////////////////////////////////////// EDUCATION */
 #educationBack {
 	background-image: url('../res/background/school2.jpg');
-}
-
-.title {
-	text-decoration: underline;
-	color: #0080ff;
 }
 
 
