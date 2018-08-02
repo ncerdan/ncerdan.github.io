@@ -17,21 +17,19 @@ ___ CSS ___
 
 
 ___ HOME ___
--minimum widths don't fit slogan
+-slogan doesn't fit in minimum widths
 
 
 ___ ABOUT ME ___
--ask mom thoughts
--add resume --> put below picture when wide, then next to picture when narrow
 -make divs veritically middle (not just have top margin)
 
 
 ___ SKILLS ___
 -not use stars?
--minor adjust during collapse so stars never overlap or go out of div
 
 
 ___ EDUCATION ___
+-make icons not merge with words?
 
 
 __ EXPERIENCE ___

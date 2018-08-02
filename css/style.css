@@ -42,6 +42,10 @@ ul {
 	border: #0080ff solid 2px;
 }
 
+.icon-padding-right {
+	padding-right: 10px;
+}
+
 
 	
 /*////////////////////////////////////////////////////////////////////////// NAVBAR, HEADER */
@@ -134,7 +138,7 @@ header {
 }
 
 #homeInfo {
-	text-align: center;
+	text-align: center;			/*merge iwth major-cont class*/
 	width: 80%;
 	min-width: 455px;
 	color: #ffffff;
@@ -161,13 +165,24 @@ header {
 }
 
 #headshot {
-	width: 60%;
+	width: 45%;
 	border-radius: 50%;
 	border: #0080ff solid 8px;
+	margin-bottom: 10px;
+}
+
+#resume {
+	text-decoration: none;
+	font-size: 2em;
+	color: #ffffff;
+}
+
+#resume:hover {
+	color: #0080ff;
 }
 
 #aboutInfoDiv {
-	width: 90%;
+	width: 90%;						/*merge iwth major-cont class*/
 	text-align: center;
 	border-radius: 3px;
 	border: #0080ff solid 2px;
@@ -342,7 +357,7 @@ header {
 
 /* ABOUT ME */
 	#headshot {
-		width: 85%;
+		width: 70%;
 	}
 }
 
