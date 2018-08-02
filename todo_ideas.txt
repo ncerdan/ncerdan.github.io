@@ -58,8 +58,6 @@ ___ PROJECTS ___
 
 
 ___ CONTACT ___
--edit icons
--style content
 -add jquery effects?
 -make div veritically middle (not just have top margin)
 
