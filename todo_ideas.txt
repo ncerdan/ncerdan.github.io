@@ -6,9 +6,9 @@ ___ OVERALL ___
 	-about 		--> (check good conditional widths) Use media query to change headshot to cropped headshot?
 	-skills 	--> (check good conditional widths)
 	-education 	--> (check if anything needs custom media queries)
-	-work 		...
+	-work 		--> (check good conditional widths)
 	-projects 	...
-	-contact 	...
+	-contact 	--> (check if anything needs custom media queries)
 -add meta stuff for search finding
 -make header icon and name a link to home.html?
 
@@ -44,9 +44,8 @@ ___ PROJECTS ___
 		-title
 		-description
 		-image
-		-link? --> can put flappyishBird on Github while improving it to get commits
-			   --> put nachenblaster on Github
-			   --> put arduino on Github
+		-link? --> improv flappying bird for a few commits
+			   --> add README to all of them
 -grid?
 -use jquery for effects
 
