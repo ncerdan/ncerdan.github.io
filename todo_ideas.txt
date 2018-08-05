@@ -33,27 +33,19 @@ ___ EDUCATION ___
 -make icons not merge with words?
 -finalize school <p>
 
+
 __ EXPERIENCE ___
 -fill out descriptions
 -VC? Sports captain?
 
 
 ___ PROJECTS ___
--requirements:
-	-projects (4/5 - flappyishBird, website, android app in development, nachenblaster, arduino)
-		-title
-		-description
-		-image
-		-link? 	--> improve flappying bird for a few commits
-			   	--> set up arduino for code and take a picture of it?
-			   	--> fill in README to all of them
-		-give them white brounded square borders?
--grid?
--use jquery for effects
+-improve flappyish bird for a few commits
+-set up arduino for codeSafe and take a picture of it for square
+-fill in README for all of them
 
 
 ___ CONTACT ___
 -add jquery effects?
--positioning good?
 
 
