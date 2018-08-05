@@ -265,6 +265,57 @@ header {
 	background-image: url('../res/background/projects.jpg');
 }
 
+.project {
+	margin-top: 5%;
+	position: relative;
+	border-radius: 7px;
+	border: solid #ffffff 3px;
+}
+
+.project.hovered {
+	border: solid #0080ff 3px;	
+}
+
+.project.hovered > .project-image {
+	filter: brightness(.2);
+}
+
+.project-image {
+	max-height: 100%;
+	max-width: 100%;
+	border-radius: 4px;
+}
+
+.project-title {
+	position: absolute;
+	bottom: 0px;
+	left: 5px;
+	width: 100%;
+}
+
+.project-name {
+	display: inline-block;
+}
+
+.project-language {
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+}
+
+.project-description {
+	text-align: center; 
+
+	display: none;
+	color: #ffffff;
+	position: absolute;
+	bottom: 0px;
+	left: 5px;
+}
+
+#nachen-blaster {
+}
+
 
 
 /*///////////////////////////////////////////////////////////////////////// CONTACT ME */

@@ -44,8 +44,10 @@ ___ PROJECTS ___
 		-title
 		-description
 		-image
-		-link? --> improv flappying bird for a few commits
-			   --> add README to all of them
+		-link? 	--> improve flappying bird for a few commits
+			   	--> set up arduino for code and take a picture of it?
+			   	--> fill in README to all of them
+		-give them white brounded square borders?
 -grid?
 -use jquery for effects
 
