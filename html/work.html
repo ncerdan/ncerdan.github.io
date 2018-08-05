@@ -4,11 +4,13 @@
 	<title>Nick Cerdan | Experience</title>
 
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="../js/script.js"></script>
 
 	<meta name="viewport" content="width=device-width">
 </head>
@@ -20,16 +22,24 @@
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<img src="../res/icons/logo.PNG" id="logo"><span id="headerName" class="blue"> Nick Cerdan </span>
+					<button type="button" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle collapsed">
+        	            <span class="sr-only">Toggle navigation</span>
+            	        <span class="icon-bar"></span>
+                	    <span class="icon-bar"></span>
+                    	<span class="icon-bar"></span>
+           		    </button>
 				</div>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="home.html" class="not-selected"> Home </a></li>
-					<li><a href="aboutme.html" class="not-selected"> About Me </a></li>
-					<li><a href="skills.html" class="not-selected"> Skills </a></li>
-					<li><a href="education.html" class="not-selected"> Education </a></li>
-					<li><a href="work.html" class="selected"> Experience </a></li>
-					<li><a href="projects.html" class="not-selected"> Projects </a></li>
-					<li><a href="contactme.html" class="not-selected"> Contact Me </a></li>
-				</ul>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="home.html" class="not-selected"> Home </a></li>
+						<li><a href="aboutme.html" class="not-selected"> About Me </a></li>
+						<li><a href="skills.html" class="not-selected"> Skills </a></li>
+						<li><a href="education.html" class="not-selected"> Education </a></li>
+						<li><a href="work.html" class="selected"> Experience </a></li>
+						<li><a href="projects.html" class="not-selected"> Projects </a></li>
+						<li><a href="contactme.html" class="not-selected"> Contact Me </a></li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 	</header>

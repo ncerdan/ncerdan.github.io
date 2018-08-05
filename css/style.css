@@ -78,6 +78,10 @@ header {
 	margin-bottom: 0px !important;
 }
 
+.nav-toggle {
+	float: right;
+}
+
 
 nav li {
 	color: #000000;
@@ -315,6 +319,13 @@ nav li {
 }
 
 /*///////////////////////////////////////////////////////////////////////// MEDIA QUERIES */
+@media (max-width: 900px) {
+/* NAV */
+	#headerName {
+		display: none;
+	}
+}
+
 @media (max-width: 767px) {
 /* HOME */
 	#slogan {
