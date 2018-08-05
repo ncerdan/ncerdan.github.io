@@ -1,17 +1,17 @@
 ___ OVERALL ___
--let whole nav box be a link, not just word
 -responsiveness:
-	-nav 		--> use boostrap nav collapse (redo nav bar)	
-	-home 		--> (check good conditional widths)
-	-about 		--> (check good conditional widths) Use media query to change headshot to cropped headshot?
-	-skills 	--> (check good conditional widths)
-	-education 	--> (check if anything needs custom media queries)
-	-work 		--> (check good conditional widths)
-	-projects 	--> (check if anything needs custom media queries)
+	-nav 		--> done
+	-home 		--> done
+	-about 		--> Use media query to change headshot to cropped headshot?
+	-skills 	--> done
+	-education 	--> done
+	-work 		--> done
+	-projects 	--> done
 	-contact 	--> (check if anything needs custom media queries)
 -add meta stuff for search finding
 -make header icon and name a link to home.html?
 -make font shrink when xs?
+-get font, reformat sizes of stuff
 
 
 ___ CSS ___
@@ -30,8 +30,8 @@ ___ ABOUT ME ___
 ___ SKILLS ___
 
 
+
 ___ EDUCATION ___
--make icons not merge with words?
 -finalize school <p>
 
 
@@ -43,9 +43,10 @@ ___ PROJECTS ___
 -improve flappyish bird for a few commits
 -set up arduino for codeSafe and take a picture of it for square
 -fill in README for all of them
+-get spec for NB? (emailed smallberg)
+-fix bottom
 
 
 ___ CONTACT ___
--add jquery effects?
 
 

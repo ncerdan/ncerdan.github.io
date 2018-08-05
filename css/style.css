@@ -13,6 +13,10 @@ ul {
 	padding: 0px;
 }
 
+.container-fluid {
+	width: 100%;
+}
+
 .noMargin {
 	margin-bottom: -8px;
 }
@@ -106,7 +110,7 @@ nav li {
 
 #sloganDiv {
 	text-align: right;
-	width: 85%;
+	width: 80%;
 	padding-top: 155px;		/*change to vertically middle */
 }
 
@@ -122,7 +126,7 @@ nav li {
 }
 
 #homeInfo {
-	text-align: center;			/*merge iwth major-cont class*/
+	text-align: center;
 	width: 80%;
 	min-width: 455px;
 	color: #ffffff;
@@ -149,7 +153,7 @@ nav li {
 }
 
 #headshot {
-	width: 45%;
+	width: 80%;
 	border-radius: 50%;
 	border: #0080ff solid 8px;
 	margin-bottom: 10px;
@@ -166,14 +170,9 @@ nav li {
 }
 
 #aboutInfoDiv {
-	width: 90%;						/*merge iwth major-cont class?*/
+	width: 90%;
 	text-align: center;
-	border-radius: 3px;
-	border: #0080ff solid 2px;
-	background-color: #ffffff;
-	margin: auto;
-	margin-top: 40px;			/*change to vertically middle */
-	margin-bottom: 10px;		
+	margin-top: 30px;       /*fix to be vertically centered*/
 }
 
 
@@ -181,23 +180,6 @@ nav li {
 /*///////////////////////////////////////////////////////////////////////// SKILLS */
 #skillsBack {
 	background-image: url('../res/background/skills.jpg');
-}
-
-#skillsContainer {
-	display: table-cell;
-	vertical-align: middle;
-	width: 60%;
-}
-
-#skillsDiv {
-	border-radius: 3px;				/*merge iwth major-cont class?*/
-	border: #0080ff solid 2px;
-	background-color: #ffffff;
-	width: 60%;
-	margin-left: 3%;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding: 2px 4px 8px 20px;
 }
 
 .skills-col {
@@ -239,6 +221,10 @@ nav li {
 /*///////////////////////////////////////////////////////////////////////// PROJECTS */
 #projectsBack {
 	background-image: url('../res/background/projects.jpg');
+}
+
+#project-major-cont {
+	margin-bottom: 15px; 
 }
 
 .project {
@@ -314,39 +300,24 @@ nav li {
 	font-weight: bold;
 }
 
+.contact-item:visited {
+	text-decoration: none;
+}
+
+.contact-item:selected {
+	text-decoration: none;
+}
+
 .contact-icon {
 	position: relative;
 }
 
 /*///////////////////////////////////////////////////////////////////////// MEDIA QUERIES */
-@media (max-width: 900px) {
-/* NAV */
-	#headerName {
-		display: none;
-	}
-}
-
-@media (max-width: 767px) {
-/* HOME */
-	#slogan {
-		font-size: 1em;
-	}
-
+@media (max-width: 767px) { /* xs properties
 /* CONTACT */
 	#contact-cont {
 		margin-top: 50px;
-	}
-}
-
-
-@media (max-width: 900px) {
-/* SKILLS */
-	#skillsDiv {
-		margin: auto;
-		margin-top: 15px;
-		margin-bottom: 15px;
-		width: 80%;
-	}   
+	}	
 }
 
 @media (max-width: 991px) { /* xs, sm properties */
@@ -372,14 +343,28 @@ nav li {
 	#homeInfo {
 		margin: auto;
 	}
-
-/* ABOUT ME */
-	#headshot {
-		width: 35%;
-	} 
 }
 
-@media (min-width: 992px) and (max-width: 1250px) { /* smaller md, smaller lg properties */
+@media (max-width: 1200px) { /* xs, sm, md properties */
+/* ABOUT ME */
+	#headshot {
+		width: 25%;
+		border: #0080ff solid 4px;
+	}
+
+	#aboutInfoDiv {
+		width: 100%;
+	}	
+}
+
+@media (max-width: 900px) { /*custom for nav */
+/* NAV */
+	#headerName {
+		display: none;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1250px) { /* custom for home */
 /* HOME */
 	#sloganDiv {
 		text-align: left;
@@ -397,12 +382,11 @@ nav li {
 	#homeInfo {
 		width: 95%;
 	}
-
-
-/* ABOUT ME */
-	#headshot {
-		width: 70%;
-	}
 }
 
-
+@media (max-width: 1250px) and (min-width: 1200px) { /* custom for about */
+/* ABOUT ME */
+	#headshot {
+		width: 100%;
+	}
+}
