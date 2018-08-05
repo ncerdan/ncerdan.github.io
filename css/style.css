@@ -78,8 +78,14 @@ header {
 	margin-bottom: 0px !important;
 }
 
+
+nav li {
+	color: #000000;
+}
+
 .selected {
-	
+	color: #0080ff !important;
+	font-weight: bold !important;
 }
 
 .border-right {
