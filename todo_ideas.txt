@@ -7,7 +7,7 @@ ___ OVERALL ___
 	-skills 	--> (check good conditional widths)
 	-education 	--> (check if anything needs custom media queries)
 	-work 		--> (check good conditional widths)
-	-projects 	...
+	-projects 	--> (check if anything needs custom media queries)
 	-contact 	--> (check if anything needs custom media queries)
 -add meta stuff for search finding
 -make header icon and name a link to home.html?
@@ -36,8 +36,7 @@ ___ EDUCATION ___
 
 
 __ EXPERIENCE ___
--fill out descriptions
--VC? Sports captain?
+-fill out descriptions (use resume) lists?
 
 
 ___ PROJECTS ___

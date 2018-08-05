@@ -72,54 +72,20 @@ header {
 
 #headerName {
 	font-size: 2em;
+}	
+
+.navbar {
+	margin-bottom: 0px !important;
 }
 
-#nav {
-	float: right;
-	margin: 0px;
-	max-height: 50px;
-	margin-right: 5px;
+.selected {
+	
 }
 
-#nav ul {
-	display: table;
-	width: 100%;
-	min-height: 50px;
+.border-right {
+	border-right: solid #000000 2px;
 }
 
-#nav li {
-	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
-}
-
-#nav li.word {
-	width: 12.8%;
-	min-width: 110px;
-}
-
-#nav li.line {
-	font-weight: bold;
-	font-size: 1.5em;
-	color: #000000;
-}
-
-#nav li.word:hover {
-	background-color: #E0E0E0;
-}
-
-#nav a {
-	text-decoration: none;
-	display: block;
-	color: #000000;
-	font-size: 18px;
-}
-
-#nav a.selected {
-	color: #0080ff;
-	font-weight: bold;
-	font-size: 20px;
-}
 
 
 
@@ -305,7 +271,7 @@ header {
 
 .project-description {
 	text-align: center; 
-
+	margin-right: 5px;
 	display: none;
 	color: #ffffff;
 	position: absolute;
@@ -329,6 +295,7 @@ header {
 	font-size: 1.4em;
 	display: block;
 	position: relative;
+	margin-top: 10px;
 }
 
 .contact-item:hover {
