@@ -11,6 +11,7 @@ ___ OVERALL ___
 	-contact 	--> (check if anything needs custom media queries)
 -add meta stuff for search finding
 -make header icon and name a link to home.html?
+-make font shrink when xs?
 
 
 ___ CSS ___
