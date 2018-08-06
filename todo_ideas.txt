@@ -7,11 +7,10 @@ ___ OVERALL ___
 	-education 	--> done
 	-work 		--> done
 	-projects 	--> done
-	-contact 	--> (check if anything needs custom media queries)
+	-contact 	--> done
 -add meta stuff for search finding
--make header icon and name a link to home.html?
 -make font shrink when xs?
--get font, reformat sizes of stuff
+-get font, reformat sizes of everything
 
 
 ___ CSS ___
