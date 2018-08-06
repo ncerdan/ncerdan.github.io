@@ -60,22 +60,27 @@ ul {
 }
 
 	
-/*////////////////////////////////////////////////////////////////////////// NAVBAR, HEADER */
+/*////////////////////////////////////////////////////////////////////////// HEADER, NAVBAR */
 header {
 	top: 0px;
 	left: 0px;
 	min-height: 50px;
 }
 
+nav {
+	border-bottom: solid #0080ff 1px !important;
+	position: relative;
+}
+
 #logo {
 	max-height: 50px;
-	width: auto;
-	margin-left: 15px;
-	margin-top: -11px;
 }
 
 #headerName {
-	font-size: 2em;
+	font-size: 3em;
+	position: absolute;
+	bottom: -10px;
+	left: 85px;
 }	
 
 .navbar {
@@ -86,20 +91,14 @@ header {
 	float: right;
 }
 
-
-nav li {
-	color: #000000;
+nav li:hover {
+	background-color: #cfcfcf;
 }
 
-.selected {
+.selected > a {
 	color: #0080ff !important;
-	font-weight: bold !important;
+	font-weight: bold;
 }
-
-.border-right {
-	border-right: solid #000000 2px;
-}
-
 
 
 
@@ -357,7 +356,7 @@ nav li {
 	}	
 }
 
-@media (max-width: 900px) { /*custom for nav */
+@media (max-width: 930px) { /*custom for nav */
 /* NAV */
 	#headerName {
 		display: none;
