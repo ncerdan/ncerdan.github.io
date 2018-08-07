@@ -6,11 +6,11 @@ ___ OVERALL ___
 	-skills 	--> done
 	-education 	--> done
 	-work 		--> done
-	-projects 	--> done
+	-projects 	--> redo scheme to stay in 2 cols longer
 	-contact 	--> done
 -add meta stuff for search finding
 -make font shrink when xs?
--get font, reformat sizes of everything
+-choose fonts, reformat sizes of everything
 
 
 ___ CSS ___
@@ -40,10 +40,9 @@ __ EXPERIENCE ___
 
 ___ PROJECTS ___
 -improve flappyish bird for a few commits
+-change responsive plan to not go 1 col so soon
 -set up arduino for codeSafe and take a picture of it for square
 -fill in README for all of them
--get spec for NB? (emailed smallberg)
--fix bottom
 
 
 ___ CONTACT ___
