@@ -8,7 +8,7 @@ function attachEventHandlers() {
 function handleProjectEnter(event) {
 	$(event.currentTarget).addClass('hovered');
 	$(event.currentTarget).find('.project-title').animate({
-		'bottom': '90%'
+		'bottom': '85%'
 	}, 175);
 	$(event.currentTarget).find('.project-description').slideToggle(200);
 }

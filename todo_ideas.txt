@@ -41,6 +41,7 @@ __ EXPERIENCE ___
 ___ PROJECTS ___
 -improve flappyish bird for a few commits
 -change responsive plan to not go 1 col so soon
+-move title to 50% up? or fix consistency issues
 -set up arduino for codeSafe and take a picture of it for square
 -fill in README for all of them
 
