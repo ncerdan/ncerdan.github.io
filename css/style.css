@@ -10,6 +10,10 @@ body, body * {
 	font-family: 'Raleway', sans-serif;
 }
 
+h1, h2, h3, h4, h5, .contact-text {
+	font-family: 'Antic', sans-serif !important;
+}
+
 ul {
 	margin: 0px;
 	padding: 0px;
@@ -68,6 +72,10 @@ ul {
 
 .title {				/*merge with blue */
 	color: #0080ff;
+}
+
+.bolder {
+	font-weight: bolder;
 }
 
 	
@@ -192,20 +200,14 @@ nav li:hover {
 	background-image: url('../res/background/skills.jpg');
 }
 
-.skills-col {
-	min-width: 200px
-}
-
 .skill-item {
 	padding-bottom: 50px;
-	min-width: 200px;
 	margin-left: 5px;
 }
 
 .skill {
 	float: left;
 	font-size: 1.4em;
-	min-width: 115px;
 }
 
 .skill-level {
@@ -301,7 +303,7 @@ nav li:hover {
 	font-size: 1.4em;
 	display: block;
 	position: relative;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .contact-item:hover {

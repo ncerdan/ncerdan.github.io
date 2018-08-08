@@ -18,7 +18,7 @@ ___ CSS ___
 
 
 ___ HOME ___
--slogan doesn't fit in minimum widths
+-slogan doesn't fit in minimum widths (switch to full bootstrap use?)
 
 
 ___ ABOUT ME ___
