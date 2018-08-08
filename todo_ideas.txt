@@ -1,16 +1,16 @@
 ___ OVERALL ___
 -responsiveness:
 	-nav 		--> done
-	-home 		--> done
+	-home 		--> make home fully bootstrap like aboutme?
 	-about 		--> Use media query to change headshot to cropped headshot?
 	-skills 	--> done
 	-education 	--> done
 	-work 		--> done
-	-projects 	--> redo scheme to stay in 2 cols longer
+	-projects 	--> done
 	-contact 	--> done
 -add meta stuff for search finding
 -make font shrink when xs?
--choose fonts, reformat sizes of everything
+-reformat sizes of everything
 
 
 ___ CSS ___
@@ -35,12 +35,11 @@ ___ EDUCATION ___
 
 
 __ EXPERIENCE ___
--fill out descriptions (use resume) lists?
+-fill out descriptions (use resume, lists?)
 
 
 ___ PROJECTS ___
 -improve flappyish bird for a few commits
--change responsive plan to not go 1 col so soon
 -move title to 50% up? or fix consistency issues
 -set up arduino for codeSafe and take a picture of it for square
 -fill in README for all of them
