@@ -1,14 +1,13 @@
 ___ OVERALL ___
 -responsiveness:
 	-nav 		--> done
-	-home 		--> final check: any minor tweaks?
-	-about 		--> final check: any minor tweaks?
+	-home 		--> done
+	-about 		--> done
 	-skills 	--> done
 	-education 	--> done
 	-work 		--> done
 	-projects 	--> done
 	-contact 	--> done
--add meta stuff for search finding
 
 
 ___ CSS ___
@@ -35,11 +34,7 @@ __ EXPERIENCE ___
 ___ PROJECTS ___
 -move title to 50% up? or fix consistency issues
 -set up arduino for codeSafe and take a picture of it for square
--get new pics for:
-	-arduino
--fill in README for all of them
 
 
 ___ CONTACT ___
-
 
