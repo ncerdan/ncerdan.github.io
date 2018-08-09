@@ -1,14 +1,9 @@
 ___ OVERALL ___
--responsiveness:
-	-nav 		--> done
-	-home 		--> done
-	-about 		--> done
-	-skills 	--> done
-	-education 	--> done
-	-work 		--> done
-	-projects 	--> done
-	-contact 	--> done
-
+-test on other browsers:
+	-firefox
+	-edge
+	-safari
+	-internet explorer
 
 ___ CSS ___
 -have pictures fill remaining height dynamically
