@@ -2,7 +2,7 @@ ___ OVERALL ___
 -responsiveness:
 	-nav 		--> done
 	-home 		--> final check: any minor tweaks?
-	-about 		--> Use media query to change headshot to cropped headshot? possible?
+	-about 		--> final check: any minor tweaks?
 	-skills 	--> done
 	-education 	--> done
 	-work 		--> done
@@ -27,20 +27,18 @@ ___ ABOUT ME ___
 ___ SKILLS ___
 
 
-
 ___ EDUCATION ___
--finalize school <p>
 
 
 __ EXPERIENCE ___
--fill out descriptions (use resume, lists?)
 
 
 ___ PROJECTS ___
 -improve flappyish bird for a few commits
 -move title to 50% up? or fix consistency issues
--fix problems when shrinking all the way
 -set up arduino for codeSafe and take a picture of it for square
+-get new pics for:
+	-arduino
 -fill in README for all of them
 
 

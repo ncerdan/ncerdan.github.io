@@ -18,6 +18,7 @@ ul {
 	margin: 0px;
 	padding: 0px;
 	text-decoration: none;
+	list-style-type: none;
 }
 
 .container-fluid {
@@ -168,11 +169,16 @@ nav li:hover {
 	padding-top: 20px;			/*change to vertically middle */
 }
 
-#headshot {
+.headshot {
 	width: 80%;
+	min-width: 160px;
 	border-radius: 50%;
 	border: #0080ff solid 8px;
-	margin-bottom: 10px;
+	margin-bottom: 2%;
+}
+
+#headshot2 {
+	display: none;
 }
 
 #resume {
@@ -228,6 +234,10 @@ nav li:hover {
 	background-image: url('../res/background/work.jpg');
 }
 
+.work-bullet {
+	margin-bottom: 10px;
+}
+
 
 
 /*///////////////////////////////////////////////////////////////////////// PROJECTS */
@@ -244,6 +254,7 @@ nav li:hover {
 	position: relative;
 	border-radius: 7px;
 	border: solid #ffffff 3px;
+	min-width: 243px;
 }
 
 .project.hovered {
@@ -365,15 +376,23 @@ nav li:hover {
 		padding-bottom: 25px;		
 		min-width: 0px !important;
 	}
+/* ABOUT ME */
+	#resume {
+		font-size: 1.4em;
+	}
 
-	#homeInfo {
-		
+	#headshot1 {
+		display: none;
+	}
+
+	#headshot2 {
+		display: inline;
 	}
 }
 
 @media (max-width: 1200px) { /* xs, sm, md properties */
 /* ABOUT ME */
-	#headshot {
+	.headshot {
 		width: 25%;
 		border: #0080ff solid 4px;
 	}
@@ -402,12 +421,5 @@ nav li:hover {
 
 	#slogan li {
 		padding-bottom: 10px;		
-	}
-}
-
-@media (max-width: 1250px) and (min-width: 1200px) { /* custom for about */
-/* ABOUT ME */
-	#headshot {
-		width: 100%;
 	}
 }
