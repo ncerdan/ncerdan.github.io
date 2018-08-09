@@ -402,6 +402,12 @@ nav li:hover {
 	}	
 }
 
+@media (max-width: 396px) {
+	.skill-level {
+		float: left;
+	}
+}
+
 @media (max-width: 930px) { /*custom for nav */
 /* NAV */
 	#headerName {

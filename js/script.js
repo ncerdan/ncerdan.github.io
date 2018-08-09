@@ -1,4 +1,4 @@
-/*will handle all event*/
+/*handles all events*/
 function attachEventHandlers() {
 	$('.project').hover(handleProjectEnter, handleProjectLeave);
 	$('.contact-item').on('mouseenter', handleContactEnter);
@@ -8,7 +8,7 @@ function attachEventHandlers() {
 function handleProjectEnter(event) {
 	$(event.currentTarget).addClass('hovered');
 	$(event.currentTarget).find('.project-title').animate({
-		'bottom': '85%'
+		'bottom': '89%'
 	}, 175);
 	$(event.currentTarget).find('.project-description').slideToggle(200);
 }
@@ -22,7 +22,7 @@ function handleProjectLeave(event) {
 	$(event.currentTarget).find('.project-description').slideToggle(200);
 }
 
-/*make icons 'bounce'*/
+/*makes icons 'bounce'*/
 function handleContactEnter(event) {
 	$(event.currentTarget).find('.contact-icon').animate({
 		'bottom': '25px'
@@ -38,7 +38,7 @@ function handleContactEnter(event) {
 	}, 65);
 }
 
-/*readys event listeners*/
+/*readies event listeners*/
 $('document').ready(function() {
 	attachEventHandlers();
 });
