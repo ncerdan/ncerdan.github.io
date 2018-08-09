@@ -1,15 +1,14 @@
 ___ OVERALL ___
 -responsiveness:
 	-nav 		--> done
-	-home 		--> make home fully bootstrap like aboutme?
-	-about 		--> Use media query to change headshot to cropped headshot?
+	-home 		--> final check: any minor tweaks?
+	-about 		--> Use media query to change headshot to cropped headshot? possible?
 	-skills 	--> done
 	-education 	--> done
 	-work 		--> done
 	-projects 	--> done
 	-contact 	--> done
 -add meta stuff for search finding
--make font shrink when xs?
 -reformat sizes of everything
 
 
@@ -18,7 +17,6 @@ ___ CSS ___
 
 
 ___ HOME ___
--slogan doesn't fit in minimum widths (switch to full bootstrap use?)
 
 
 ___ ABOUT ME ___
@@ -41,6 +39,7 @@ __ EXPERIENCE ___
 ___ PROJECTS ___
 -improve flappyish bird for a few commits
 -move title to 50% up? or fix consistency issues
+-fix problems when shrinking all the way
 -set up arduino for codeSafe and take a picture of it for square
 -fill in README for all of them
 
