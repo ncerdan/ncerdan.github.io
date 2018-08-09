@@ -129,11 +129,10 @@ nav li:hover {
 #sloganDiv {
 	text-align: right;
 	width: 80%;
-	padding-top: 155px;		/*change to vertically middle */
+	margin-top: 155px;		/*change to vertically middle */
 }
 
 #slogan {
-	margin: 0px;
 	font-size: 6em;
 	color: #ffffff;
 }
@@ -146,7 +145,6 @@ nav li:hover {
 #homeInfo {
 	text-align: center;
 	width: 80%;
-	min-width: 455px;
 	color: #ffffff;
 	padding-left: 10%;
 	margin-top: 2%;
@@ -326,34 +324,48 @@ nav li:hover {
 
 /*///////////////////////////////////////////////////////////////////////// MEDIA QUERIES */
 @media (max-width: 767px) { /* xs properties
+/* HOME */
+	#slogan {
+		font-size: 2.5em !important;
+	}
+
+	#homeInfo {
+		text-align: right;
+		width: 100%;
+		margin-top: -45px;
+	}
+
+	#homeInfoTitle {
+		font-size: 1.5em; 
+	}
+
+	#sloganDiv {
+		margin: 55px 0 0 0;
+	}
+
 /* CONTACT */
 	#contact-cont {
 		margin-top: 50px;
 	}	
 }
 
-@media (max-width: 991px) { /* xs, sm properties */
+@media (max-width: 992px) { /* xs, sm properties */
 /* HOME */ 
 	#sloganDiv {
-		width: 100%;
-		text-align: center;
-		padding-top: 0px;
-		padding-bottom: 35px;
+		text-align: left;
 	}
 
 	#slogan {
-		font-size: 3em;	
-		display: inline-table;
+		font-size: 4em;	
 	}
 
 	#slogan li {
-		margin: 0;
-		display: table-cell;
-		min-width: 0px;
+		padding-bottom: 25px;		
+		min-width: 0px !important;
 	}
 
 	#homeInfo {
-		margin: auto;
+		
 	}
 }
 
@@ -388,11 +400,6 @@ nav li:hover {
 
 	#slogan li {
 		padding-bottom: 10px;		
-		min-width: 0px;
-	}
-
-	#homeInfo {
-		width: 95%;
 	}
 }
 
