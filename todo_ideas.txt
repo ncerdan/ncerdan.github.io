@@ -4,6 +4,7 @@ ___ OVERALL ___
 	-edge
 	-safari
 	-internet explorer
+-look up webkit stuff?
 
 ___ CSS ___
 -have pictures fill remaining height dynamically
