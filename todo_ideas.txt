@@ -1,7 +1,7 @@
 ___ OVERALL ___
 -test on other browsers:
 	-safari
-
+-host on gh pages
 
 ___ CSS ___
 
