@@ -1,4 +1,8 @@
 /*///////////////////////////////////////////////////////////////////////// GLOBALS */
+html {
+	height: 100%;
+}
+
 body {
 	margin:0;
 	background-color: #ffffff;
@@ -38,8 +42,9 @@ ul {
 .backgroundImg {
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	display: table;
-	height: 680px; /* fix to scale*/
+	height: 95%;
 }
 
 .centered {
@@ -166,7 +171,7 @@ nav li:hover {
 #headshotDiv {
 	text-align: center;
 	margin: auto;
-	padding-top: 20px;			/*change to vertically middle */
+	padding-top: 20px;
 }
 
 .headshot {
@@ -184,17 +189,17 @@ nav li:hover {
 #resume {
 	text-decoration: none;
 	font-size: 2em;
-	color: #ffffff;
+	color: #0080ff;
 }
 
-#resume:hover {
-	color: #0080ff;
+#resume:hover > span {
+	text-decoration: underline;
 }
 
 #aboutInfoDiv {
 	width: 90%;
 	text-align: center;
-	margin-top: 30px;       /*fix to be vertically centered*/
+	margin-top: 20px;
 } 
 
 

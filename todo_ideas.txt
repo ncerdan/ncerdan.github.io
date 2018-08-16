@@ -1,20 +1,15 @@
 ___ OVERALL ___
 -test on other browsers:
-	-firefox
-	-edge
 	-safari
-	-internet explorer
--look up webkit stuff?
+
 
 ___ CSS ___
--have pictures fill remaining height dynamically
 
 
 ___ HOME ___
 
 
 ___ ABOUT ME ___
--make divs veritically middle (not just have top margin)
 -finish resume
 
 
