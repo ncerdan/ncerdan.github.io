@@ -1,7 +1,6 @@
 ___ OVERALL ___
--test on other browsers:
-	-safari
--host on gh pages
+-haleys fixes
+
 
 ___ CSS ___
 
@@ -10,7 +9,7 @@ ___ HOME ___
 
 
 ___ ABOUT ME ___
--finish resume
+-finalize resume
 
 
 ___ SKILLS ___
