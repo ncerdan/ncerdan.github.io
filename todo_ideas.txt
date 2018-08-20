@@ -1,4 +1,5 @@
 ___ OVERALL ___
+-modify descriptions for each page?
 
 
 ___ CSS ___
