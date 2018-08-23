@@ -212,6 +212,7 @@ nav li:hover {
 .skill-item {
 	padding-bottom: 50px;
 	margin-left: 5px;
+	width: 100%
 }
 
 .skill {
@@ -362,8 +363,13 @@ nav li:hover {
 	}
 
 /* SKILLS */
-	.skill {
+	.skill{
 		font-size: 1.2em;
+	}
+
+	.skill-level {
+		font-size: .8em;
+		margin-right: -35px;
 	}	
 
 /* CONTACT */
@@ -412,13 +418,6 @@ nav li:hover {
 	}	
 }
 
-/*
-@media (max-width: 396px) {
-	.skill-level {
-		float: left;
-	}
-}
-*/
 @media (max-width: 930px) { /*custom for nav */
 /* NAV */
 	#headerName {
