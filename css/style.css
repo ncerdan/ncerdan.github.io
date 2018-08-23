@@ -361,6 +361,11 @@ nav li:hover {
 		margin: 55px 0 0 0;
 	}
 
+/* SKILLS */
+	.skill {
+		font-size: 1.2em;
+	}	
+
 /* CONTACT */
 	#contact-cont {
 		margin-top: 50px;
