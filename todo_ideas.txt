@@ -13,7 +13,7 @@ ___ ABOUT ME ___
 
 
 ___ SKILLS ___
--xs media query to make smaller font so word and stars one line?
+-remove react/SQL? worth one star?
 
 ___ EDUCATION ___
 
