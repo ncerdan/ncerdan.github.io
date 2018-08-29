@@ -11,7 +11,7 @@ ___ ABOUT ME ___
 
 
 ___ SKILLS ___
--remove react/SQL? worth one star?
+
 
 ___ EDUCATION ___
 
