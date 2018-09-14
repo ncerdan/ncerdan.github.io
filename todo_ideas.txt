@@ -20,7 +20,6 @@ __ EXPERIENCE ___
 
 
 ___ PROJECTS ___
--set up arduino for codeSafe and take a picture of it for square
 
 
 ___ CONTACT ___
