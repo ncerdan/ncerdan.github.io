@@ -232,7 +232,7 @@ nav li:hover {
 /*///////////////////////////////////////////////////////////////////////// EDUCATION */
 #educationBack {
 	background-image: url('../res/background/school2.jpg');
-	background-position: right;
+	background-position: right !important;
 }
 
 
