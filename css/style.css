@@ -130,6 +130,7 @@ nav li:hover {
 /*///////////////////////////////////////////////////////////////////////// HOME */
 #homeBack{
 	background-image: url('../res/background/home.jpg');
+	background-position: top;
 }
 
 #sloganDiv {
@@ -231,6 +232,7 @@ nav li:hover {
 /*///////////////////////////////////////////////////////////////////////// EDUCATION */
 #educationBack {
 	background-image: url('../res/background/school2.jpg');
+	background-position: right;
 }
 
 
